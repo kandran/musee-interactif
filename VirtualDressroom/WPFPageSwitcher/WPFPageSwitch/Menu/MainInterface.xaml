@@ -1,0 +1,165 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+	mc:Ignorable="d"
+	x:Class="WPFPageSwitch.MainInterface"
+    xmlns:ctrl="clr-namespace:WPFPageSwitch"
+	d:DesignWidth="1920" d:DesignHeight="1080">
+    
+ 
+    <Grid Height="1088" Width="1980" Background="Black">
+
+        <Image Name ="Backdrop" Stretch="Fill" Source="C:\VirtualDressroom\WPFPageSwitcher\WPFPageSwitch\Resources\vintage-bedroom-design-ideas.jpg" />
+
+        <Image Source="C:\VirtualDressroom\WPFPageSwitcher\WPFPageSwitch\Resources\Chapeaux.png" Margin="-132,-5,1128,20" />
+        <Image Source="C:\VirtualDressroom\WPFPageSwitcher\WPFPageSwitch\Resources\Armoire.png" Margin="1248,-20,68,85"/>
+        <Image Name="ChapeauxSelected" Source="C:\VirtualDressroom\WPFPageSwitcher\WPFPageSwitch\Resources\ChapeauxSelected.png" Margin="-132,-5,1128,20" Opacity="0" />
+        <Image Name="ArmoireSelected" Source="C:\VirtualDressroom\WPFPageSwitcher\WPFPageSwitch\Resources\ArmoireSelected.png" Margin="1248,-20,68,85" Opacity="0" />
+        <Image Name="ScrollCasual" Source="C:\VirtualDressroom\WPFPageSwitcher\WPFPageSwitch\Resources\Camera.png" Margin="489,-133,740,890" />
+        <Image Name="ScrollSelected" Source="C:\VirtualDressroom\WPFPageSwitcher\WPFPageSwitch\Resources\CameraSelected.png" Margin="489,-133,740,890" Opacity="0" />
+
+
+
+
+        <Canvas x:Name="Images" Margin="0,0,48,-5">
+            <ctrl:GestureButton Content="" x:Name="Photo" Canvas.Left="903" Canvas.Top="24" Margin="-132,-5,1128,20" BorderThickness="0" BorderBrush="{x:Null}" Width="287" Height="163" ActionEntry="Photo_ActionEnter" ActionExit="Photo_ActionExit" Click="Photo_Click">
+                <ctrl:GestureButton.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </ctrl:GestureButton.Template>
+            </ctrl:GestureButton>
+            <ctrl:GestureButton Content="" x:Name="Armoire"  Click="Armoire_Click"  Canvas.Left="1523" Canvas.Top="24" Margin="-132,-5,1128,20" BorderThickness="0" BorderBrush="{x:Null}" Width="500" Height="949" ActionExit="Armoire_ActionExit" ActionEntry="Armoire_ActionEnter">
+            <ctrl:GestureButton.Template>
+                <ControlTemplate TargetType="Button">
+                    <ContentPresenter Content="{TemplateBinding Content}"/>
+                </ControlTemplate>
+            </ctrl:GestureButton.Template>
+        </ctrl:GestureButton> 
+            <ctrl:GestureButton Content="" x:Name="PM"  Click="PM_Click"  Canvas.Left="273" Canvas.Top="24" Margin="-132,-5,1128,20" BorderBrush="{x:Null}" Width="330" Height="984" ActionEntry="PM_ActionEntry" ActionExit="PM_ActionExit">
+            <ctrl:GestureButton.Template>
+                <ControlTemplate TargetType="Button">
+                    <ContentPresenter Content="{TemplateBinding Content}"/>
+                </ControlTemplate>
+            </ctrl:GestureButton.Template>
+        </ctrl:GestureButton>
+            <Image Name ="SelectV" Stretch="Fill" Source="C:\VirtualDressroom\WPFPageSwitcher\WPFPageSwitch\Resources\Selection.jpg" Height="1093" Width="1923" Opacity="0" IsHitTestVisible="False" />
+
+            <StackPanel   Name="imghabit1"  Margin="560,220,1080,120"  Visibility="Collapsed" Opacity="0" Height="748" Canvas.Left="534" Width="357" Canvas.Top="0" >
+                <Image Source="/JagoanFisika;component/Resources/Transparent.png" x:Shared="False" Stretch="Fill" Height="750" />
+                <Image Source="/JagoanFisika;component/Resources/Transparent.png" x:Shared="False" Stretch="Fill" Height="753" />
+            </StackPanel>
+
+            <StackPanel   Name="imghabit2"  Margin="1094,220,529,120" Visibility="Collapsed" Opacity="0" Height="748" Canvas.Left="-577" Width="347">
+                <Image Source="/JagoanFisika;component/Resources/Transparent.png" x:Shared="False" Stretch="Fill" Height="753" />
+                <Image Source="/JagoanFisika;component/Resources/Transparent.png" x:Shared="False" Stretch="Fill" Height="753" />
+            </StackPanel>
+
+            <ctrl:GestureButton Content="" Height="748" x:Name="habit1"   BorderBrush="{x:Null}" Click="Selection_Vetement1"  Canvas.Left="1090" Canvas.Top="220" Width="361" Opacity="0" Visibility="Collapsed">
+                <ctrl:GestureButton.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </ctrl:GestureButton.Template>
+            </ctrl:GestureButton>
+            <ctrl:GestureButton Content="" Height="748" x:Name="habit2"  BorderBrush="{x:Null}" Click="Selection_Vetement2" Canvas.Left="517" Canvas.Top="220" Width="383" Opacity="0" Visibility="Collapsed">
+                <ctrl:GestureButton.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </ctrl:GestureButton.Template>
+            </ctrl:GestureButton>
+            <ctrl:GestureButton Content="" Height="1077" x:Name="HMvR"  BorderBrush="{x:Null}" Click="MoveRight" Canvas.Left="1450" Canvas.Top="-3" Width="477" Opacity="0" Visibility="Collapsed">
+                <ctrl:GestureButton.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </ctrl:GestureButton.Template>
+            </ctrl:GestureButton>
+            <ctrl:GestureButton Content="" Height="1087" x:Name="HMvL"  BorderBrush="{x:Null}" Click="MoveLeft" Canvas.Left="-7" Canvas.Top="-3" Width="513" Opacity="0" Visibility="Collapsed">
+                <ctrl:GestureButton.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </ctrl:GestureButton.Template>
+            </ctrl:GestureButton>
+            <Image Name ="SelectC" Stretch="Fill" Source="C:\VirtualDressroom\WPFPageSwitcher\WPFPageSwitch\Resources\FondChapeaux.jpg" Width="1920" Height="1280" Opacity="0" />
+
+            <StackPanel   Name="imgchapeau1"  Margin="560,220,1080,120"  Visibility="Collapsed" Opacity="0" Height="480" Canvas.Left="483" Width="447" Canvas.Top="0" >
+                <Image Source="/JagoanFisika;component/Resources/Transparent.png" x:Shared="False" Stretch="Fill" Height="473" Width="443" />
+                <Image Source="/JagoanFisika;component/Resources/Transparent.png" x:Shared="False" Stretch="Fill" Height="753" />
+            </StackPanel>
+
+            <StackPanel   Name="imgchapeau2"  Margin="1094,220,529,120" Visibility="Collapsed" Opacity="0" Height="473" Canvas.Left="-503" Width="417">
+                <Image Source="/JagoanFisika;component/Resources/Transparent.png" x:Shared="False" Stretch="Fill" Height="467" Width="420" />
+                <Image Source="/JagoanFisika;component/Resources/Transparent.png" x:Shared="False" Stretch="Fill" Height="753" />
+            </StackPanel>
+
+            <ctrl:GestureButton Content="" Height="473" x:Name="chapeau1"   BorderBrush="{x:Null}" Click="Selection_Chapeau1"  Canvas.Left="1090" Canvas.Top="220" Width="398" Opacity="0" Visibility="Collapsed">
+                <ctrl:GestureButton.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </ctrl:GestureButton.Template>
+            </ctrl:GestureButton>
+
+            <ctrl:GestureButton Content="" Height="473" x:Name="chapeau2"   BorderBrush="{x:Null}" Click="Selection_Chapeau2"  Canvas.Left="590" Canvas.Top="220" Width="417" Opacity="0" Visibility="Collapsed">
+                <ctrl:GestureButton.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </ctrl:GestureButton.Template>
+            </ctrl:GestureButton>
+
+            <ctrl:GestureButton Content="" Height="1050" x:Name="CMvR"  BorderBrush="{x:Null}" Click="CMoveRight" Canvas.Left="1497" Canvas.Top="23" Width="430" Opacity="0" Visibility="Collapsed">
+                <ctrl:GestureButton.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </ctrl:GestureButton.Template>
+            </ctrl:GestureButton>
+            <ctrl:GestureButton Content="" Height="1087" x:Name="CMvL"  BorderBrush="{x:Null}" Click="CMoveLeft" Canvas.Left="-7" Canvas.Top="-3" Width="513" Opacity="0" Visibility="Collapsed">
+                <ctrl:GestureButton.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </ctrl:GestureButton.Template>
+            </ctrl:GestureButton>
+
+            <Image Name="RightArrow" Source="/JagoanFisika;component/Resources/132275-worn-cloth-icon-arrows-arrow-more.png" Margin="1534,287,60,290" Opacity="0" Height="463" Width="378" />
+            <Image Name="LeftArrow" Source="/JagoanFisika;component/Resources/leftarrow.png" Margin="12,337,1509,333" Opacity="0" Height="413" Width="413" />
+
+
+            <StackPanel Background="black" Grid.Row="0" Grid.ColumnSpan="3" Orientation="Horizontal"></StackPanel>
+            <ctrl:HandCursor x:Name="handCursor" Height="59" Width="63" Canvas.Left="0" Canvas.Top="1021" />
+            
+        </Canvas>
+
+
+
+
+        <StackPanel Height="1080" HorizontalAlignment="Left" Margin="0,0,0,0" Name="Screen" VerticalAlignment="Top" Width="1920" >
+            <Image Source="/JagoanFisika;component/Resources/Transparent.png" Stretch="Fill"/>
+        </StackPanel>
+
+        <Image x:Name="colorimageControl2" Grid.Row="1" />
+        
+        <Canvas x:Name="myCanvas" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
+        <Canvas Grid.Row="1" Name="myCanvas2" >
+            <StackPanel Canvas.Left="0" Canvas.Top="0" Name="Vetements" >
+                <Image Source="/JagoanFisika;component/Resources/Robe.png" Height="1068" Width="800" Name="Myjupe"  Opacity="0" />
+            </StackPanel>
+            <StackPanel Canvas.Left="0" Canvas.Top="0" Name="Chapeaux" >
+                <Image Source="/JagoanFisika;component/Resources/chapeau.png" Height="223" Width="243" Name="chapeau" Opacity="0" />
+            </StackPanel>
+        </Canvas>
+
+
+    </Grid>
+    
+    
+
+</UserControl>
+    
