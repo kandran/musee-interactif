@@ -1,0 +1,16 @@
+digraph "WPFPageSwitcher/WPFPageSwitch" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_37d2c4fdb3fb5d836cd83f1aed39a07e {
+    graph [ bgcolor="#ddddee", pencolor="black", label="WPFPageSwitcher" fontname="Helvetica", fontsize="10", URL="dir_37d2c4fdb3fb5d836cd83f1aed39a07e.html"]
+  subgraph clusterdir_5df0347b05456ddbd917cf402268b1cf {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_5df0347b05456ddbd917cf402268b1cf.html"];
+    dir_5df0347b05456ddbd917cf402268b1cf [shape=plaintext label="WPFPageSwitch"];
+    dir_12976b9b8342be6dc625ee8581dd4f60 [shape=box label="Backup" color="red" fillcolor="white" style="filled" URL="dir_12976b9b8342be6dc625ee8581dd4f60.html"];
+    dir_e2c81ceba0955e2d44fa6b0c637094ff [shape=box label="Menu" color="black" fillcolor="white" style="filled" URL="dir_e2c81ceba0955e2d44fa6b0c637094ff.html"];
+    dir_85e1ba1b68b126724ae79fd1a945e686 [shape=box label="obj" color="red" fillcolor="white" style="filled" URL="dir_85e1ba1b68b126724ae79fd1a945e686.html"];
+    dir_2a05b75da0c99af51bee4b6500d628d5 [shape=box label="Properties" color="black" fillcolor="white" style="filled" URL="dir_2a05b75da0c99af51bee4b6500d628d5.html"];
+  }
+  }
+}

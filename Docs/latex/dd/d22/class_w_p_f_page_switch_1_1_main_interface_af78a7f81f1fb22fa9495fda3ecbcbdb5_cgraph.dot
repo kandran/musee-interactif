@@ -1,0 +1,13 @@
+digraph "WPFPageSwitch.MainInterface.MainInterface"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="WPFPageSwitch.MainInterface.\lMainInterface",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="WPFPageSwitch.MainInterface.\lInitializeComponent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d22/class_w_p_f_page_switch_1_1_main_interface.html#a94ae399430b10837e6c8d484bf093615",tooltip="InitializeComponent "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="WPFPageSwitch.MainInterface.\lMainWindow_Loaded",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d22/class_w_p_f_page_switch_1_1_main_interface.html#af550c908d0894dd05836253a5621a9ed",tooltip="Handles the Loaded event of the MainWindow control. "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="WPFPageSwitch.GestionSensors.have\lSensors",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#a44e7b3e836e45430085d0784a5e8a2a1",tooltip="Say if we have sensors up "];
+}

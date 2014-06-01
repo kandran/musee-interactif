@@ -1,0 +1,314 @@
+\hypertarget{class_w_p_f_page_switch_1_1_gestion_sensors}{\section{Référence de la classe W\+P\+F\+Page\+Switch.\+Gestion\+Sensors}
+\label{class_w_p_f_page_switch_1_1_gestion_sensors}\index{W\+P\+F\+Page\+Switch.\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch.\+Gestion\+Sensors}}
+}
+
+
+Manage sensors \+: Basics  
+
+
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_w_p_f_page_switch_1_1_gestion_sensors_ae262a06ff6fd96ac83e35f0de7849033}{Gestion\+Sensors} ()
+\begin{DoxyCompactList}\small\item\em Constructor \end{DoxyCompactList}\item 
+bool \hyperlink{class_w_p_f_page_switch_1_1_gestion_sensors_a44e7b3e836e45430085d0784a5e8a2a1}{have\+Sensors} ()
+\begin{DoxyCompactList}\small\item\em Say if we have sensors up \end{DoxyCompactList}\item 
+int \hyperlink{class_w_p_f_page_switch_1_1_gestion_sensors_a3efdbf6f6f0a86e4d392f0d912a845c2}{bind\+Sensor} (int sensor\+Number=0)
+\begin{DoxyCompactList}\small\item\em Bind a sensor with the sensors manager. Verify if this sensors exist, else use the default value 0 \end{DoxyCompactList}\item 
+void \hyperlink{class_w_p_f_page_switch_1_1_gestion_sensors_a0a487c7612aa0f77f3c3e4c364bb3807}{change\+State\+Sensor} (bool state)
+\begin{DoxyCompactList}\small\item\em Change the state of use for the sensors \end{DoxyCompactList}\item 
+int \hyperlink{class_w_p_f_page_switch_1_1_gestion_sensors_aea312a173b28c0b43dc2072f89e8679c}{use\+Sensor} (int sensor\+Number=0)
+\begin{DoxyCompactList}\small\item\em For using sensor in one step \end{DoxyCompactList}\item 
+void \hyperlink{class_w_p_f_page_switch_1_1_gestion_sensors_ab5f3364669a06cc4afabf29ed7de5c4a}{use\+Color\+Stream} (\hyperlink{class_w_p_f_page_switch_1_1_main_interface}{Main\+Interface} m)
+\begin{DoxyCompactList}\small\item\em Enable color stream and attach him a target \end{DoxyCompactList}\item 
+void \hyperlink{class_w_p_f_page_switch_1_1_gestion_sensors_a45cb637a573b863b7e326c9d23e7c687}{sensor\+\_\+\+Color\+Frame\+Ready} (object sender, Color\+Image\+Frame\+Ready\+Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Color frame main class (video stream) \end{DoxyCompactList}\item 
+void \hyperlink{class_w_p_f_page_switch_1_1_gestion_sensors_ad38a678531279c11d032e7f476960f31}{use\+Depth} (\hyperlink{class_w_p_f_page_switch_1_1_main_interface}{Main\+Interface} e)
+\begin{DoxyCompactList}\small\item\em Use depth for an img \end{DoxyCompactList}\item 
+void \hyperlink{class_w_p_f_page_switch_1_1_gestion_sensors_a1e2c4d6b529f410f60429dee720cb370}{use\+Skeleton} (\hyperlink{class_w_p_f_page_switch_1_1_main_interface}{Main\+Interface} e)
+\begin{DoxyCompactList}\small\item\em Permet d'utiliser le squelette et afficher les vetements \end{DoxyCompactList}\item 
+Point \hyperlink{class_w_p_f_page_switch_1_1_gestion_sensors_a7ddacaa1483cada9987238a8d703b0a8}{Scale\+Position} (Skeleton\+Point skeleton\+Point)
+\begin{DoxyCompactList}\small\item\em Scales the position. \end{DoxyCompactList}\item 
+\hypertarget{class_w_p_f_page_switch_1_1_gestion_sensors_ab99daaeb58fdd4249f612b636118c967}{float {\bfseries Scale} (float value, int max)}\label{class_w_p_f_page_switch_1_1_gestion_sensors_ab99daaeb58fdd4249f612b636118c967}
+
+\end{DoxyCompactItemize}
+\subsection*{Attributs publics}
+\begin{DoxyCompactItemize}
+\item 
+const bool \hyperlink{class_w_p_f_page_switch_1_1_gestion_sensors_a758fa88d19a3cc8f7ba90c8db4247e91}{S\+T\+A\+R\+T} = true
+\begin{DoxyCompactList}\small\item\em Boolean for start sensor \end{DoxyCompactList}\item 
+const bool \hyperlink{class_w_p_f_page_switch_1_1_gestion_sensors_ac63f379c004d16664d15ebd2c0fe55d6}{S\+T\+O\+P} = false
+\begin{DoxyCompactList}\small\item\em Boolean for stop sensor \end{DoxyCompactList}\item 
+\hypertarget{class_w_p_f_page_switch_1_1_gestion_sensors_a6f08a1e98d479a23e345cf2a246b7910}{int {\bfseries depth\+Width}}\label{class_w_p_f_page_switch_1_1_gestion_sensors_a6f08a1e98d479a23e345cf2a246b7910}
+
+\item 
+\hypertarget{class_w_p_f_page_switch_1_1_gestion_sensors_a4cb92677eed6662fc2f112115221181a}{int {\bfseries depth\+Height}}\label{class_w_p_f_page_switch_1_1_gestion_sensors_a4cb92677eed6662fc2f112115221181a}
+
+\item 
+\hypertarget{class_w_p_f_page_switch_1_1_gestion_sensors_a43c406b04a1fd98400e62741c4e665eb}{int {\bfseries color\+Width}}\label{class_w_p_f_page_switch_1_1_gestion_sensors_a43c406b04a1fd98400e62741c4e665eb}
+
+\item 
+\hypertarget{class_w_p_f_page_switch_1_1_gestion_sensors_ae2e8471e8061a6c16d6679aabf61fa2d}{int {\bfseries color\+Height}}\label{class_w_p_f_page_switch_1_1_gestion_sensors_ae2e8471e8061a6c16d6679aabf61fa2d}
+
+\end{DoxyCompactItemize}
+\subsection*{Propriétés}
+\begin{DoxyCompactItemize}
+\item 
+Kinect\+Sensor \hyperlink{class_w_p_f_page_switch_1_1_gestion_sensors_acfdae1c543efbc38a3d4610e20985430}{sensor}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Define the kinect sensor \end{DoxyCompactList}\item 
+int \hyperlink{class_w_p_f_page_switch_1_1_gestion_sensors_a0ba7cfa18034bf823eb307e3fbb5222d}{nb\+Sensors}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Define the number of sensor available \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Manage sensors \+: Basics 
+
+Classe de gestion des capteurs \+: squelette 
+
+Gestion Sensors \+: specialized with depth and green screen 
+
+Manage Sensors \+: specialized for color stream 
+
+\subsection{Documentation des constructeurs et destructeur}
+\hypertarget{class_w_p_f_page_switch_1_1_gestion_sensors_ae262a06ff6fd96ac83e35f0de7849033}{\index{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}!Gestion\+Sensors@{Gestion\+Sensors}}
+\index{Gestion\+Sensors@{Gestion\+Sensors}!W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}}
+\subsubsection[{Gestion\+Sensors}]{\setlength{\rightskip}{0pt plus 5cm}W\+P\+F\+Page\+Switch.\+Gestion\+Sensors.\+Gestion\+Sensors (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_w_p_f_page_switch_1_1_gestion_sensors_ae262a06ff6fd96ac83e35f0de7849033}
+
+
+Constructor 
+
+
+
+\subsection{Documentation des fonctions membres}
+\hypertarget{class_w_p_f_page_switch_1_1_gestion_sensors_a3efdbf6f6f0a86e4d392f0d912a845c2}{\index{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}!bind\+Sensor@{bind\+Sensor}}
+\index{bind\+Sensor@{bind\+Sensor}!W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}}
+\subsubsection[{bind\+Sensor}]{\setlength{\rightskip}{0pt plus 5cm}int W\+P\+F\+Page\+Switch.\+Gestion\+Sensors.\+bind\+Sensor (
+\begin{DoxyParamCaption}
+\item[{int}]{sensor\+Number = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{class_w_p_f_page_switch_1_1_gestion_sensors_a3efdbf6f6f0a86e4d392f0d912a845c2}
+
+
+Bind a sensor with the sensors manager. Verify if this sensors exist, else use the default value 0 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em sensor\+Number} & Number of sensors\\
+\hline
+\end{DoxyParams}
+
+
+Voici le graphe d'appel pour cette fonction \+:
+
+
+
+
+Voici le graphe des appelants de cette fonction \+:
+
+
+\hypertarget{class_w_p_f_page_switch_1_1_gestion_sensors_a0a487c7612aa0f77f3c3e4c364bb3807}{\index{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}!change\+State\+Sensor@{change\+State\+Sensor}}
+\index{change\+State\+Sensor@{change\+State\+Sensor}!W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}}
+\subsubsection[{change\+State\+Sensor}]{\setlength{\rightskip}{0pt plus 5cm}void W\+P\+F\+Page\+Switch.\+Gestion\+Sensors.\+change\+State\+Sensor (
+\begin{DoxyParamCaption}
+\item[{bool}]{state}
+\end{DoxyParamCaption}
+)}}\label{class_w_p_f_page_switch_1_1_gestion_sensors_a0a487c7612aa0f77f3c3e4c364bb3807}
+
+
+Change the state of use for the sensors 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em state} & New state\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_w_p_f_page_switch_1_1_gestion_sensors_a44e7b3e836e45430085d0784a5e8a2a1}{\index{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}!have\+Sensors@{have\+Sensors}}
+\index{have\+Sensors@{have\+Sensors}!W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}}
+\subsubsection[{have\+Sensors}]{\setlength{\rightskip}{0pt plus 5cm}bool W\+P\+F\+Page\+Switch.\+Gestion\+Sensors.\+have\+Sensors (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_w_p_f_page_switch_1_1_gestion_sensors_a44e7b3e836e45430085d0784a5e8a2a1}
+
+
+Say if we have sensors up 
+
+\begin{DoxyReturn}{Renvoie}
+True if sensors was available false else
+\end{DoxyReturn}
+
+
+Voici le graphe des appelants de cette fonction \+:
+
+
+\hypertarget{class_w_p_f_page_switch_1_1_gestion_sensors_a7ddacaa1483cada9987238a8d703b0a8}{\index{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}!Scale\+Position@{Scale\+Position}}
+\index{Scale\+Position@{Scale\+Position}!W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}}
+\subsubsection[{Scale\+Position}]{\setlength{\rightskip}{0pt plus 5cm}Point W\+P\+F\+Page\+Switch.\+Gestion\+Sensors.\+Scale\+Position (
+\begin{DoxyParamCaption}
+\item[{Skeleton\+Point}]{skeleton\+Point}
+\end{DoxyParamCaption}
+)}}\label{class_w_p_f_page_switch_1_1_gestion_sensors_a7ddacaa1483cada9987238a8d703b0a8}
+
+
+Scales the position. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em skeleton\+Point} & The skeleton point.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+
+
+Voici le graphe des appelants de cette fonction \+:
+
+
+\hypertarget{class_w_p_f_page_switch_1_1_gestion_sensors_a45cb637a573b863b7e326c9d23e7c687}{\index{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}!sensor\+\_\+\+Color\+Frame\+Ready@{sensor\+\_\+\+Color\+Frame\+Ready}}
+\index{sensor\+\_\+\+Color\+Frame\+Ready@{sensor\+\_\+\+Color\+Frame\+Ready}!W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}}
+\subsubsection[{sensor\+\_\+\+Color\+Frame\+Ready}]{\setlength{\rightskip}{0pt plus 5cm}void W\+P\+F\+Page\+Switch.\+Gestion\+Sensors.\+sensor\+\_\+\+Color\+Frame\+Ready (
+\begin{DoxyParamCaption}
+\item[{object}]{sender, }
+\item[{Color\+Image\+Frame\+Ready\+Event\+Args}]{e}
+\end{DoxyParamCaption}
+)}}\label{class_w_p_f_page_switch_1_1_gestion_sensors_a45cb637a573b863b7e326c9d23e7c687}
+
+
+Color frame main class (video stream) 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em sender} & \\
+\hline
+{\em e} & \\
+\hline
+\end{DoxyParams}
+
+
+Voici le graphe des appelants de cette fonction \+:
+
+
+\hypertarget{class_w_p_f_page_switch_1_1_gestion_sensors_ab5f3364669a06cc4afabf29ed7de5c4a}{\index{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}!use\+Color\+Stream@{use\+Color\+Stream}}
+\index{use\+Color\+Stream@{use\+Color\+Stream}!W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}}
+\subsubsection[{use\+Color\+Stream}]{\setlength{\rightskip}{0pt plus 5cm}void W\+P\+F\+Page\+Switch.\+Gestion\+Sensors.\+use\+Color\+Stream (
+\begin{DoxyParamCaption}
+\item[{{\bf Main\+Interface}}]{m}
+\end{DoxyParamCaption}
+)}}\label{class_w_p_f_page_switch_1_1_gestion_sensors_ab5f3364669a06cc4afabf29ed7de5c4a}
+
+
+Enable color stream and attach him a target 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em m} & Caller class\\
+\hline
+\end{DoxyParams}
+
+
+Voici le graphe d'appel pour cette fonction \+:
+
+
+\hypertarget{class_w_p_f_page_switch_1_1_gestion_sensors_ad38a678531279c11d032e7f476960f31}{\index{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}!use\+Depth@{use\+Depth}}
+\index{use\+Depth@{use\+Depth}!W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}}
+\subsubsection[{use\+Depth}]{\setlength{\rightskip}{0pt plus 5cm}void W\+P\+F\+Page\+Switch.\+Gestion\+Sensors.\+use\+Depth (
+\begin{DoxyParamCaption}
+\item[{{\bf Main\+Interface}}]{e}
+\end{DoxyParamCaption}
+)}}\label{class_w_p_f_page_switch_1_1_gestion_sensors_ad38a678531279c11d032e7f476960f31}
+
+
+Use depth for an img 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em e} & Caller object\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_w_p_f_page_switch_1_1_gestion_sensors_aea312a173b28c0b43dc2072f89e8679c}{\index{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}!use\+Sensor@{use\+Sensor}}
+\index{use\+Sensor@{use\+Sensor}!W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}}
+\subsubsection[{use\+Sensor}]{\setlength{\rightskip}{0pt plus 5cm}int W\+P\+F\+Page\+Switch.\+Gestion\+Sensors.\+use\+Sensor (
+\begin{DoxyParamCaption}
+\item[{int}]{sensor\+Number = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{class_w_p_f_page_switch_1_1_gestion_sensors_aea312a173b28c0b43dc2072f89e8679c}
+
+
+For using sensor in one step 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em sensor\+Number} & Kinect a utiliser, par defaut la premiere\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+
+
+Voici le graphe d'appel pour cette fonction \+:
+
+
+\hypertarget{class_w_p_f_page_switch_1_1_gestion_sensors_a1e2c4d6b529f410f60429dee720cb370}{\index{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}!use\+Skeleton@{use\+Skeleton}}
+\index{use\+Skeleton@{use\+Skeleton}!W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}}
+\subsubsection[{use\+Skeleton}]{\setlength{\rightskip}{0pt plus 5cm}void W\+P\+F\+Page\+Switch.\+Gestion\+Sensors.\+use\+Skeleton (
+\begin{DoxyParamCaption}
+\item[{{\bf Main\+Interface}}]{e}
+\end{DoxyParamCaption}
+)}}\label{class_w_p_f_page_switch_1_1_gestion_sensors_a1e2c4d6b529f410f60429dee720cb370}
+
+
+Permet d'utiliser le squelette et afficher les vetements 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em e} & Instance vers l'appellant\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentation des données membres}
+\hypertarget{class_w_p_f_page_switch_1_1_gestion_sensors_a758fa88d19a3cc8f7ba90c8db4247e91}{\index{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}!S\+T\+A\+R\+T@{S\+T\+A\+R\+T}}
+\index{S\+T\+A\+R\+T@{S\+T\+A\+R\+T}!W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}}
+\subsubsection[{S\+T\+A\+R\+T}]{\setlength{\rightskip}{0pt plus 5cm}const bool W\+P\+F\+Page\+Switch.\+Gestion\+Sensors.\+S\+T\+A\+R\+T = true}}\label{class_w_p_f_page_switch_1_1_gestion_sensors_a758fa88d19a3cc8f7ba90c8db4247e91}
+
+
+Boolean for start sensor 
+
+\hypertarget{class_w_p_f_page_switch_1_1_gestion_sensors_ac63f379c004d16664d15ebd2c0fe55d6}{\index{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}!S\+T\+O\+P@{S\+T\+O\+P}}
+\index{S\+T\+O\+P@{S\+T\+O\+P}!W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}}
+\subsubsection[{S\+T\+O\+P}]{\setlength{\rightskip}{0pt plus 5cm}const bool W\+P\+F\+Page\+Switch.\+Gestion\+Sensors.\+S\+T\+O\+P = false}}\label{class_w_p_f_page_switch_1_1_gestion_sensors_ac63f379c004d16664d15ebd2c0fe55d6}
+
+
+Boolean for stop sensor 
+
+
+
+\subsection{Documentation des propriétés}
+\hypertarget{class_w_p_f_page_switch_1_1_gestion_sensors_a0ba7cfa18034bf823eb307e3fbb5222d}{\index{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}!nb\+Sensors@{nb\+Sensors}}
+\index{nb\+Sensors@{nb\+Sensors}!W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}}
+\subsubsection[{nb\+Sensors}]{\setlength{\rightskip}{0pt plus 5cm}int W\+P\+F\+Page\+Switch.\+Gestion\+Sensors.\+nb\+Sensors\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_w_p_f_page_switch_1_1_gestion_sensors_a0ba7cfa18034bf823eb307e3fbb5222d}
+
+
+Define the number of sensor available 
+
+\hypertarget{class_w_p_f_page_switch_1_1_gestion_sensors_acfdae1c543efbc38a3d4610e20985430}{\index{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}!sensor@{sensor}}
+\index{sensor@{sensor}!W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors@{W\+P\+F\+Page\+Switch\+::\+Gestion\+Sensors}}
+\subsubsection[{sensor}]{\setlength{\rightskip}{0pt plus 5cm}Kinect\+Sensor W\+P\+F\+Page\+Switch.\+Gestion\+Sensors.\+sensor\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_w_p_f_page_switch_1_1_gestion_sensors_acfdae1c543efbc38a3d4610e20985430}
+
+
+Define the kinect sensor 
+
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+W\+P\+F\+Page\+Switcher/\+W\+P\+F\+Page\+Switch/Gestion\+Sensors.\+cs\item 
+W\+P\+F\+Page\+Switcher/\+W\+P\+F\+Page\+Switch/Gestion\+Sensors\+Depth.\+cs\item 
+W\+P\+F\+Page\+Switcher/\+W\+P\+F\+Page\+Switch/Gestion\+Sensors\+Skeleton.\+cs\item 
+W\+P\+F\+Page\+Switcher/\+W\+P\+F\+Page\+Switch/Gestion\+Sensors\+Color.\+cs\end{DoxyCompactItemize}

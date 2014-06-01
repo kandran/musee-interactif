@@ -1,0 +1,9 @@
+digraph "WPFPageSwitcher/WPFPageSwitch/Menu" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_5df0347b05456ddbd917cf402268b1cf {
+    graph [ bgcolor="#ddddee", pencolor="black", label="WPFPageSwitch" fontname="Helvetica", fontsize="10", URL="dir_5df0347b05456ddbd917cf402268b1cf.html"]
+  dir_e2c81ceba0955e2d44fa6b0c637094ff [shape=box, label="Menu", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e2c81ceba0955e2d44fa6b0c637094ff.html"];
+  }
+}

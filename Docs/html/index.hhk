@@ -1,0 +1,321 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/db6/class_w_p_f_page_switch_1_1_option.html#a064585b78e376e3d5ceb46216641f8c4"><param name="Name" value="__instance"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/db5/class_w_p_f_page_switch_1_1_gesture_button.html#aaa1d04a339798df542c6c22ecf31b703"><param name="Name" value="ActionCompleted"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/db5/class_w_p_f_page_switch_1_1_gesture_button.html#a5a3bd97a0f3065ecb51612ce2e73ee01"><param name="Name" value="ActionEntry"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="df/da3/class_w_p_f_page_switch_1_1_action_event_args.html#a3b996d76963affa1c411cf2ed947e45b"><param name="Name" value="ActionEventArgs"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/db5/class_w_p_f_page_switch_1_1_gesture_button.html#acf9c3e6a7b02cdbfbc24d420bc96f896"><param name="Name" value="ActionExit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/db0/class_xaml_generated_namespace_1_1_generated_internal_type_helper.html#a73471f4a6d1ca4c4fceec9ad8610f0c8"><param name="Name" value="AddEventHandler"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#a3efdbf6f6f0a86e4d392f0d912a845c2"><param name="Name" value="bindSensor"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/db7/class_w_p_f_page_switch_1_1_button_position.html#a195cf18ea189baae62b8f95a7b8dd8f8"><param name="Name" value="Bottom"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/db7/class_w_p_f_page_switch_1_1_screen_capture.html#acdffec344290d15bf5c86df87bca930e"><param name="Name" value="CapturerBureauWindows"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#a0a487c7612aa0f77f3c3e4c364bb3807"><param name="Name" value="changeStateSensor"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d22/class_w_p_f_page_switch_1_1_main_interface.html#a321e73a09bf8e4c41fbff9419d865970"><param name="Name" value="ChapeauSelectionne"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/db6/class_w_p_f_page_switch_1_1_option.html#a03eda2eaac9e47ba6d9288bf5e711ffd"><param name="Name" value="chapeaux"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#ae2e8471e8061a6c16d6679aabf61fa2d"><param name="Name" value="colorHeight"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#a43c406b04a1fd98400e62741c4e665eb"><param name="Name" value="colorWidth"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/db0/class_xaml_generated_namespace_1_1_generated_internal_type_helper.html#a8ec4c37e82d9f4e867e9655f4eac3a78"><param name="Name" value="CreateDelegate"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/db0/class_xaml_generated_namespace_1_1_generated_internal_type_helper.html#aefb7a98fceb9c287cef4756942f441d1"><param name="Name" value="CreateInstance"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#a4cb92677eed6662fc2f112115221181a"><param name="Name" value="depthHeight"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#a6f08a1e98d479a23e345cf2a246b7910"><param name="Name" value="depthWidth"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/db7/class_w_p_f_page_switch_1_1_screen_capture.html#aa195fbb3dbbdb99e1a644baf235b35d4"><param name="Name" value="EnregistreCaptureBureau"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d36/class_w_p_f_page_switch_1_1_skeleton_info.html#a8fcb5e3dd96d1777bc8c6805135d822e"><param name="Name" value="FrameID"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#ae262a06ff6fd96ac83e35f0de7849033"><param name="Name" value="GestionSensors"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/db5/class_w_p_f_page_switch_1_1_gesture_button.html#ac80a56a4ac464a5b5669290fcf7976ce"><param name="Name" value="GestureButton"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/db6/class_w_p_f_page_switch_1_1_option.html#ab61070b3c563a16e29550e1ba0d5046b"><param name="Name" value="getConfig"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d67/class_w_p_f_page_switch_1_1_hand_cursor.html#ad7074656c59dc487a0e127f9c502fe2b"><param name="Name" value="GetCursorPoint"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d22/class_w_p_f_page_switch_1_1_main_interface.html#adead34222f6078f1efa84f1a75c7ec5d"><param name="Name" value="getInstance"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d22/class_w_p_f_page_switch_1_1_main_interface.html#adead34222f6078f1efa84f1a75c7ec5d"><param name="Name" value="WPFPageSwitch::MainInterface"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/db6/class_w_p_f_page_switch_1_1_option.html#ac468a2f3469807420d2aba6ac0d38954"><param name="Name" value="WPFPageSwitch::Option"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/db0/class_xaml_generated_namespace_1_1_generated_internal_type_helper.html#afdc9fe15b56607d02082908d934480c6"><param name="Name" value="GetPropertyValue"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/db5/class_w_p_f_page_switch_1_1_gesture_button.html#a644c81da321e6b399f187007bae55d3e"><param name="Name" value="HandCursor"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#a44e7b3e836e45430085d0784a5e8a2a1"><param name="Name" value="haveSensors"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/db6/class_w_p_f_page_switch_1_1_option.html#ad20c7999cbd6bf4455b2fe607969e5b8"><param name="Name" value="images"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/d20/class_w_p_f_page_switch_1_1_app.html#a4783f15d847a19375e68c3217d54fce3"><param name="Name" value="InitializeComponent"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/d20/class_w_p_f_page_switch_1_1_app.html#a4783f15d847a19375e68c3217d54fce3"><param name="Name" value="WPFPageSwitch::App"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d69/class_w_p_f_page_switch_1_1_choix_chapeaux.html#a919e366b73f55b3a347dbd1a34ebfbf0"><param name="Name" value="WPFPageSwitch::ChoixChapeaux"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/dad/class_w_p_f_page_switch_1_1_choix_vetements.html#a13f2000282e330b55cfda1261d650daf"><param name="Name" value="WPFPageSwitch::ChoixVetements"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dff/class_w_p_f_page_switch_1_1_gameplay.html#aca4ed8f995450b33d1d16f873a291517"><param name="Name" value="WPFPageSwitch::Gameplay"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d67/class_w_p_f_page_switch_1_1_hand_cursor.html#a35ac305d808a5b3259859d36a1013492"><param name="Name" value="WPFPageSwitch::HandCursor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="db/df2/class_w_p_f_page_switch_1_1_load_game.html#a57ac9be6287be57230fb9e0a0f8e6af2"><param name="Name" value="WPFPageSwitch::LoadGame"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/db8/class_w_p_f_page_switch_1_1_login.html#abfc34abfda9f4b7b4e639ab794c99f25"><param name="Name" value="WPFPageSwitch::Login"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d22/class_w_p_f_page_switch_1_1_main_interface.html#a94ae399430b10837e6c8d484bf093615"><param name="Name" value="WPFPageSwitch::MainInterface"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="db/db7/class_w_p_f_page_switch_1_1_main_menu.html#ad8e328850b1e3d831ba78fc7317acee5"><param name="Name" value="WPFPageSwitch::MainMenu"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d97/class_w_p_f_page_switch_1_1_main_window.html#a55f40a663d5de124f2ad4c894d1fb371"><param name="Name" value="WPFPageSwitch::MainWindow"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dae/class_w_p_f_page_switch_1_1_menu_1_1_window1.html#af8293a2d0e6fd29ce847c033626e937b"><param name="Name" value="WPFPageSwitch::Menu::Window1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/db6/class_w_p_f_page_switch_1_1_option.html#a317fd55293bd6bbd222ccdfbc9e2812f"><param name="Name" value="WPFPageSwitch::Option"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/de4/class_w_p_f_page_switch_1_1_page_switcher.html#a509631b93e88b2d86c2c4b19637db12b"><param name="Name" value="WPFPageSwitch::PageSwitcher"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/d9d/class_w_p_f_page_switch_1_1_register.html#ad5e641f96aa04b64e977304ace67812e"><param name="Name" value="WPFPageSwitch::Register"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="db/df1/class_w_p_f_page_switch_1_1_window1.html#ac08a96aca406bc48664fdd7468720981"><param name="Name" value="WPFPageSwitch::Window1"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d6/d9e/namespace_jagoan_fisika.html"><param name="Name" value="JagoanFisika"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d5d/class_jagoan_fisika_1_1_app.html"><param name="Name" value="JagoanFisika::App"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/d44/class_jagoan_fisika_1_1_gameplay.html"><param name="Name" value="JagoanFisika::Gameplay"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/d44/class_jagoan_fisika_1_1_gameplay.html#a9299fc72c4ef6178afabf5606e9aa7bc"><param name="Name" value="UtilizeState"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d18/interface_jagoan_fisika_1_1_i_switchable.html"><param name="Name" value="JagoanFisika::ISwitchable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d18/interface_jagoan_fisika_1_1_i_switchable.html#abcbe208f948f6e86590bbd65b37b97e7"><param name="Name" value="UtilizeState"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d6/de6/class_jagoan_fisika_1_1_load_game.html"><param name="Name" value="JagoanFisika::LoadGame"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d6/de6/class_jagoan_fisika_1_1_load_game.html#acdb3122e0895037f40dc9d4e0a5c7855"><param name="Name" value="UtilizeState"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d9/d0e/class_jagoan_fisika_1_1_login.html"><param name="Name" value="JagoanFisika::Login"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="db/d3c/class_jagoan_fisika_1_1_main_menu.html"><param name="Name" value="JagoanFisika::MainMenu"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="db/d3c/class_jagoan_fisika_1_1_main_menu.html#a9cfb589a616a77f9f9d2fc8f6a4473e0"><param name="Name" value="UtilizeState"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/df4/class_jagoan_fisika_1_1_option.html"><param name="Name" value="JagoanFisika::Option"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/df4/class_jagoan_fisika_1_1_option.html#adca9b6ec6d9b02fb73c5458c2bfc4a5a"><param name="Name" value="UtilizeState"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/d44/class_jagoan_fisika_1_1_page_switcher.html"><param name="Name" value="JagoanFisika::PageSwitcher"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/d44/class_jagoan_fisika_1_1_page_switcher.html#a70d07b5901605d3f5becb63be932b694"><param name="Name" value="Navigate"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/de0/namespace_jagoan_fisika_1_1_properties.html"><param name="Name" value="JagoanFisika::Properties"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/dfe/class_jagoan_fisika_1_1_register.html"><param name="Name" value="JagoanFisika::Register"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/db7/class_w_p_f_page_switch_1_1_button_position.html#ac56eac24ee7f302add0c6e6d3d3e1874"><param name="Name" value="Left"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/d20/class_w_p_f_page_switch_1_1_app.html#a6c7267c67de3c5f282b47d9606ca0f36"><param name="Name" value="Main"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d22/class_w_p_f_page_switch_1_1_main_interface.html#af78a7f81f1fb22fa9495fda3ecbcbdb5"><param name="Name" value="MainInterface"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d22/class_w_p_f_page_switch_1_1_main_interface.html#af550c908d0894dd05836253a5621a9ed"><param name="Name" value="MainWindow_Loaded"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="da/d76/class_w_p_f_page_switch_1_1_habits.html#ac1bcc40549a7ea54a6320bfbf6d91512"><param name="Name" value="MapJointsWithUIElement"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/d44/class_jagoan_fisika_1_1_page_switcher.html#a70d07b5901605d3f5becb63be932b694"><param name="Name" value="Navigate"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/d44/class_jagoan_fisika_1_1_page_switcher.html#a70d07b5901605d3f5becb63be932b694"><param name="Name" value="JagoanFisika::PageSwitcher"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/de4/class_w_p_f_page_switch_1_1_page_switcher.html#a4d77546e87edd3b1d8474f5d85cd8bee"><param name="Name" value="WPFPageSwitch::PageSwitcher"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#a0ba7cfa18034bf823eb307e3fbb5222d"><param name="Name" value="nbSensors"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/db6/class_w_p_f_page_switch_1_1_option.html#a2782509bac0ef618eb057d30bb2d76ee"><param name="Name" value="obj2D"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/db6/class_w_p_f_page_switch_1_1_option.html#a977d3a7de4b2d1ded491150771ae0a06"><param name="Name" value="obj3D"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/db6/class_w_p_f_page_switch_1_1_option.html#abdc1ef228eec651bd7b1d080dc6aaf7e"><param name="Name" value="Option"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/de4/class_w_p_f_page_switch_1_1_page_switcher.html#a11ddf72adcca16ab0cdc1437b762e46f"><param name="Name" value="PageSwitcher"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/d95/class_w_p_f_page_switch_1_1_config.html#adee1e4d84a7e18c964540e35a71b3420"><param name="Name" value="proportionScaleX"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/d95/class_w_p_f_page_switch_1_1_config.html#a8044a6f5fd6f6b736115222199109ea6"><param name="Name" value="proportionScaleY"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/db7/class_w_p_f_page_switch_1_1_button_position.html#aea3f1da5e0fad3fef73a2f5d10a00c0c"><param name="Name" value="Right"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/db6/class_w_p_f_page_switch_1_1_option.html#ab9931ed6a02b7dc83bcd4c7a368e6d07"><param name="Name" value="rotate_left"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/db6/class_w_p_f_page_switch_1_1_option.html#a696d785be49fa21a97385cbd884b4bc9"><param name="Name" value="rotate_right"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#ab99daaeb58fdd4249f612b636118c967"><param name="Name" value="Scale"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#a7ddacaa1483cada9987238a8d703b0a8"><param name="Name" value="ScalePosition"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/d95/class_w_p_f_page_switch_1_1_config.html#a64429fd5490e01f9d57544941ae92ec1"><param name="Name" value="scaleX"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/d95/class_w_p_f_page_switch_1_1_config.html#a5a63edb13abbed2b365f5fd3a9352157"><param name="Name" value="scaleY"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#acfdae1c543efbc38a3d4610e20985430"><param name="Name" value="sensor"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#a45cb637a573b863b7e326c9d23e7c687"><param name="Name" value="sensor_ColorFrameReady"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d22/class_w_p_f_page_switch_1_1_main_interface.html#a30d3541e7a36cacb28251cf806d2d0ef"><param name="Name" value="setImg"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d67/class_w_p_f_page_switch_1_1_hand_cursor.html#ae80307269ab1f33db59a2f8e11def34f"><param name="Name" value="SetPosition"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/db0/class_xaml_generated_namespace_1_1_generated_internal_type_helper.html#ade0f04c0f7b18dd5b170e071d5534d38"><param name="Name" value="SetPropertyValue"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d36/class_w_p_f_page_switch_1_1_skeleton_info.html#a75b7e8daeca9c2bb1d9782edb62522dc"><param name="Name" value="Skeleton"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#a758fa88d19a3cc8f7ba90c8db4247e91"><param name="Name" value="START"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="df/da3/class_w_p_f_page_switch_1_1_action_event_args.html#a76d9c3d60f925d47a92cce2f247255b8"><param name="Name" value="Status"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="df/da3/class_w_p_f_page_switch_1_1_action_event_args.html#a76d9c3d60f925d47a92cce2f247255b8"><param name="Name" value="WPFPageSwitch::ActionEventArgs"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/db5/class_w_p_f_page_switch_1_1_gesture_button.html#a5477f8cb4541609e9f01c8578b36628e"><param name="Name" value="WPFPageSwitch::GestureButton"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d22/class_w_p_f_page_switch_1_1_main_interface.html#ad6597e38bbdd6ccd1fd9fdbc203aa4be"><param name="Name" value="WPFPageSwitch::MainInterface"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#ac63f379c004d16664d15ebd2c0fe55d6"><param name="Name" value="STOP"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/db7/class_w_p_f_page_switch_1_1_button_position.html#aeebf553328308359312cd6efc78ed345"><param name="Name" value="Top"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#ab5f3364669a06cc4afabf29ed7de5c4a"><param name="Name" value="useColorStream"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#ad38a678531279c11d032e7f476960f31"><param name="Name" value="useDepth"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#aea312a173b28c0b43dc2072f89e8679c"><param name="Name" value="useSensor"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#a1e2c4d6b529f410f60429dee720cb370"><param name="Name" value="useSkeleton"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/d44/class_jagoan_fisika_1_1_gameplay.html#a9299fc72c4ef6178afabf5606e9aa7bc"><param name="Name" value="UtilizeState"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/d44/class_jagoan_fisika_1_1_gameplay.html#a9299fc72c4ef6178afabf5606e9aa7bc"><param name="Name" value="JagoanFisika::Gameplay"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/d18/interface_jagoan_fisika_1_1_i_switchable.html#abcbe208f948f6e86590bbd65b37b97e7"><param name="Name" value="JagoanFisika::ISwitchable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d6/de6/class_jagoan_fisika_1_1_load_game.html#acdb3122e0895037f40dc9d4e0a5c7855"><param name="Name" value="JagoanFisika::LoadGame"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="db/d3c/class_jagoan_fisika_1_1_main_menu.html#a9cfb589a616a77f9f9d2fc8f6a4473e0"><param name="Name" value="JagoanFisika::MainMenu"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/df4/class_jagoan_fisika_1_1_option.html#adca9b6ec6d9b02fb73c5458c2bfc4a5a"><param name="Name" value="JagoanFisika::Option"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d67/class_w_p_f_page_switch_1_1_hand_cursor.html#a04fa97fc61c32a26590b7c607bb426ef"><param name="Name" value="WPFPageSwitch::HandCursor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/dc4/interface_w_p_f_page_switch_1_1_i_switchable.html#ad1954f3df78181fa17c005960c89aede"><param name="Name" value="WPFPageSwitch::ISwitchable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d22/class_w_p_f_page_switch_1_1_main_interface.html#ad3c57c28f09e16fea92ae048e38ee7a4"><param name="Name" value="WPFPageSwitch::MainInterface"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="db/db7/class_w_p_f_page_switch_1_1_main_menu.html#a6336501f31a0346a54b4b8f92c69e823"><param name="Name" value="WPFPageSwitch::MainMenu"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/db6/class_w_p_f_page_switch_1_1_option.html#a376be63c0c1be45ecf6a73ea54872524"><param name="Name" value="WPFPageSwitch::Option"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/db5/class_w_p_f_page_switch_1_1_gesture_button.html#acd364ffb515b904e09348c146f5f9ad7"><param name="Name" value="ValidatePoisition"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d22/class_w_p_f_page_switch_1_1_main_interface.html#a4d6e65debb17ae57a1b9e95a5e2a28ac"><param name="Name" value="VetementSelectionne"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/db2/namespace_w_p_f_page_switch.html"><param name="Name" value="WPFPageSwitch"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="df/da3/class_w_p_f_page_switch_1_1_action_event_args.html"><param name="Name" value="WPFPageSwitch::ActionEventArgs"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="df/da3/class_w_p_f_page_switch_1_1_action_event_args.html#a3b996d76963affa1c411cf2ed947e45b"><param name="Name" value="ActionEventArgs"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="df/da3/class_w_p_f_page_switch_1_1_action_event_args.html#a76d9c3d60f925d47a92cce2f247255b8"><param name="Name" value="Status"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/d20/class_w_p_f_page_switch_1_1_app.html"><param name="Name" value="WPFPageSwitch::App"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/d20/class_w_p_f_page_switch_1_1_app.html#a4783f15d847a19375e68c3217d54fce3"><param name="Name" value="InitializeComponent"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/d20/class_w_p_f_page_switch_1_1_app.html#a6c7267c67de3c5f282b47d9606ca0f36"><param name="Name" value="Main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/db7/class_w_p_f_page_switch_1_1_button_position.html"><param name="Name" value="WPFPageSwitch::ButtonPosition"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/db7/class_w_p_f_page_switch_1_1_button_position.html#a195cf18ea189baae62b8f95a7b8dd8f8"><param name="Name" value="Bottom"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/db7/class_w_p_f_page_switch_1_1_button_position.html#ac56eac24ee7f302add0c6e6d3d3e1874"><param name="Name" value="Left"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/db7/class_w_p_f_page_switch_1_1_button_position.html#aea3f1da5e0fad3fef73a2f5d10a00c0c"><param name="Name" value="Right"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/db7/class_w_p_f_page_switch_1_1_button_position.html#aeebf553328308359312cd6efc78ed345"><param name="Name" value="Top"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d69/class_w_p_f_page_switch_1_1_choix_chapeaux.html"><param name="Name" value="WPFPageSwitch::ChoixChapeaux"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d69/class_w_p_f_page_switch_1_1_choix_chapeaux.html#a919e366b73f55b3a347dbd1a34ebfbf0"><param name="Name" value="InitializeComponent"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/dad/class_w_p_f_page_switch_1_1_choix_vetements.html"><param name="Name" value="WPFPageSwitch::ChoixVetements"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/dad/class_w_p_f_page_switch_1_1_choix_vetements.html#a13f2000282e330b55cfda1261d650daf"><param name="Name" value="InitializeComponent"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/d95/class_w_p_f_page_switch_1_1_config.html"><param name="Name" value="WPFPageSwitch::Config"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/d95/class_w_p_f_page_switch_1_1_config.html#adee1e4d84a7e18c964540e35a71b3420"><param name="Name" value="proportionScaleX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/d95/class_w_p_f_page_switch_1_1_config.html#a8044a6f5fd6f6b736115222199109ea6"><param name="Name" value="proportionScaleY"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/d95/class_w_p_f_page_switch_1_1_config.html#a64429fd5490e01f9d57544941ae92ec1"><param name="Name" value="scaleX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/d95/class_w_p_f_page_switch_1_1_config.html#a5a63edb13abbed2b365f5fd3a9352157"><param name="Name" value="scaleY"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d6/dc6/class_w_p_f_page_switch_1_1_cursor_point.html"><param name="Name" value="WPFPageSwitch::CursorPoint"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d6/dc6/class_w_p_f_page_switch_1_1_cursor_point.html#af921ce768aa3273833fdc3e978e9f81e"><param name="Name" value="X"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d6/dc6/class_w_p_f_page_switch_1_1_cursor_point.html#a20a949e5e110f776c0a98dd0bc72f0c5"><param name="Name" value="Y"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dff/class_w_p_f_page_switch_1_1_gameplay.html"><param name="Name" value="WPFPageSwitch::Gameplay"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dff/class_w_p_f_page_switch_1_1_gameplay.html#aca4ed8f995450b33d1d16f873a291517"><param name="Name" value="InitializeComponent"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html"><param name="Name" value="WPFPageSwitch::GestionSensors"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#a3efdbf6f6f0a86e4d392f0d912a845c2"><param name="Name" value="bindSensor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#a0a487c7612aa0f77f3c3e4c364bb3807"><param name="Name" value="changeStateSensor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#ae2e8471e8061a6c16d6679aabf61fa2d"><param name="Name" value="colorHeight"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#a43c406b04a1fd98400e62741c4e665eb"><param name="Name" value="colorWidth"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#a4cb92677eed6662fc2f112115221181a"><param name="Name" value="depthHeight"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#a6f08a1e98d479a23e345cf2a246b7910"><param name="Name" value="depthWidth"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#ae262a06ff6fd96ac83e35f0de7849033"><param name="Name" value="GestionSensors"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#a44e7b3e836e45430085d0784a5e8a2a1"><param name="Name" value="haveSensors"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#a0ba7cfa18034bf823eb307e3fbb5222d"><param name="Name" value="nbSensors"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#ab99daaeb58fdd4249f612b636118c967"><param name="Name" value="Scale"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#a7ddacaa1483cada9987238a8d703b0a8"><param name="Name" value="ScalePosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#acfdae1c543efbc38a3d4610e20985430"><param name="Name" value="sensor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#a45cb637a573b863b7e326c9d23e7c687"><param name="Name" value="sensor_ColorFrameReady"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#a758fa88d19a3cc8f7ba90c8db4247e91"><param name="Name" value="START"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#ac63f379c004d16664d15ebd2c0fe55d6"><param name="Name" value="STOP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#ab5f3364669a06cc4afabf29ed7de5c4a"><param name="Name" value="useColorStream"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#ad38a678531279c11d032e7f476960f31"><param name="Name" value="useDepth"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#aea312a173b28c0b43dc2072f89e8679c"><param name="Name" value="useSensor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/dba/class_w_p_f_page_switch_1_1_gestion_sensors.html#a1e2c4d6b529f410f60429dee720cb370"><param name="Name" value="useSkeleton"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/db5/class_w_p_f_page_switch_1_1_gesture_button.html"><param name="Name" value="WPFPageSwitch::GestureButton"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/db5/class_w_p_f_page_switch_1_1_gesture_button.html#aaa1d04a339798df542c6c22ecf31b703"><param name="Name" value="ActionCompleted"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/db5/class_w_p_f_page_switch_1_1_gesture_button.html#a5a3bd97a0f3065ecb51612ce2e73ee01"><param name="Name" value="ActionEntry"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/db5/class_w_p_f_page_switch_1_1_gesture_button.html#acf9c3e6a7b02cdbfbc24d420bc96f896"><param name="Name" value="ActionExit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/db5/class_w_p_f_page_switch_1_1_gesture_button.html#ac80a56a4ac464a5b5669290fcf7976ce"><param name="Name" value="GestureButton"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/db5/class_w_p_f_page_switch_1_1_gesture_button.html#a644c81da321e6b399f187007bae55d3e"><param name="Name" value="HandCursor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/db5/class_w_p_f_page_switch_1_1_gesture_button.html#a5477f8cb4541609e9f01c8578b36628e"><param name="Name" value="Status"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/db5/class_w_p_f_page_switch_1_1_gesture_button.html#acd364ffb515b904e09348c146f5f9ad7"><param name="Name" value="ValidatePoisition"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="da/d76/class_w_p_f_page_switch_1_1_habits.html"><param name="Name" value="WPFPageSwitch::Habits"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="da/d76/class_w_p_f_page_switch_1_1_habits.html#ac1bcc40549a7ea54a6320bfbf6d91512"><param name="Name" value="MapJointsWithUIElement"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d67/class_w_p_f_page_switch_1_1_hand_cursor.html"><param name="Name" value="WPFPageSwitch::HandCursor"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d67/class_w_p_f_page_switch_1_1_hand_cursor.html#ad7074656c59dc487a0e127f9c502fe2b"><param name="Name" value="GetCursorPoint"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d67/class_w_p_f_page_switch_1_1_hand_cursor.html#a35ac305d808a5b3259859d36a1013492"><param name="Name" value="InitializeComponent"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d67/class_w_p_f_page_switch_1_1_hand_cursor.html#ae80307269ab1f33db59a2f8e11def34f"><param name="Name" value="SetPosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d5/d67/class_w_p_f_page_switch_1_1_hand_cursor.html#a04fa97fc61c32a26590b7c607bb426ef"><param name="Name" value="UtilizeState"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/dc4/interface_w_p_f_page_switch_1_1_i_switchable.html"><param name="Name" value="WPFPageSwitch::ISwitchable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/dc4/interface_w_p_f_page_switch_1_1_i_switchable.html#ad1954f3df78181fa17c005960c89aede"><param name="Name" value="UtilizeState"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="db/df2/class_w_p_f_page_switch_1_1_load_game.html"><param name="Name" value="WPFPageSwitch::LoadGame"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="db/df2/class_w_p_f_page_switch_1_1_load_game.html#a57ac9be6287be57230fb9e0a0f8e6af2"><param name="Name" value="InitializeComponent"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/db8/class_w_p_f_page_switch_1_1_login.html"><param name="Name" value="WPFPageSwitch::Login"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/db8/class_w_p_f_page_switch_1_1_login.html#abfc34abfda9f4b7b4e639ab794c99f25"><param name="Name" value="InitializeComponent"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d22/class_w_p_f_page_switch_1_1_main_interface.html"><param name="Name" value="WPFPageSwitch::MainInterface"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d22/class_w_p_f_page_switch_1_1_main_interface.html#a321e73a09bf8e4c41fbff9419d865970"><param name="Name" value="ChapeauSelectionne"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d22/class_w_p_f_page_switch_1_1_main_interface.html#adead34222f6078f1efa84f1a75c7ec5d"><param name="Name" value="getInstance"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d22/class_w_p_f_page_switch_1_1_main_interface.html#a94ae399430b10837e6c8d484bf093615"><param name="Name" value="InitializeComponent"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d22/class_w_p_f_page_switch_1_1_main_interface.html#af78a7f81f1fb22fa9495fda3ecbcbdb5"><param name="Name" value="MainInterface"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d22/class_w_p_f_page_switch_1_1_main_interface.html#af550c908d0894dd05836253a5621a9ed"><param name="Name" value="MainWindow_Loaded"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d22/class_w_p_f_page_switch_1_1_main_interface.html#a30d3541e7a36cacb28251cf806d2d0ef"><param name="Name" value="setImg"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d22/class_w_p_f_page_switch_1_1_main_interface.html#ad6597e38bbdd6ccd1fd9fdbc203aa4be"><param name="Name" value="Status"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d22/class_w_p_f_page_switch_1_1_main_interface.html#ad3c57c28f09e16fea92ae048e38ee7a4"><param name="Name" value="UtilizeState"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d22/class_w_p_f_page_switch_1_1_main_interface.html#a4d6e65debb17ae57a1b9e95a5e2a28ac"><param name="Name" value="VetementSelectionne"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="db/db7/class_w_p_f_page_switch_1_1_main_menu.html"><param name="Name" value="WPFPageSwitch::MainMenu"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="db/db7/class_w_p_f_page_switch_1_1_main_menu.html#ad8e328850b1e3d831ba78fc7317acee5"><param name="Name" value="InitializeComponent"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="db/db7/class_w_p_f_page_switch_1_1_main_menu.html#a6336501f31a0346a54b4b8f92c69e823"><param name="Name" value="UtilizeState"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d97/class_w_p_f_page_switch_1_1_main_window.html"><param name="Name" value="WPFPageSwitch::MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dd/d97/class_w_p_f_page_switch_1_1_main_window.html#a55f40a663d5de124f2ad4c894d1fb371"><param name="Name" value="InitializeComponent"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d3/d6d/namespace_w_p_f_page_switch_1_1_menu.html"><param name="Name" value="WPFPageSwitch::Menu"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dae/class_w_p_f_page_switch_1_1_menu_1_1_window1.html"><param name="Name" value="WPFPageSwitch::Menu::Window1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d2/dae/class_w_p_f_page_switch_1_1_menu_1_1_window1.html#af8293a2d0e6fd29ce847c033626e937b"><param name="Name" value="InitializeComponent"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="de/db6/class_w_p_f_page_switch_1_1_option.html"><param name="Name" value="WPFPageSwitch::Option"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/db6/class_w_p_f_page_switch_1_1_option.html#a064585b78e376e3d5ceb46216641f8c4"><param name="Name" value="__instance"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/db6/class_w_p_f_page_switch_1_1_option.html#a03eda2eaac9e47ba6d9288bf5e711ffd"><param name="Name" value="chapeaux"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/db6/class_w_p_f_page_switch_1_1_option.html#ab61070b3c563a16e29550e1ba0d5046b"><param name="Name" value="getConfig"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/db6/class_w_p_f_page_switch_1_1_option.html#ac468a2f3469807420d2aba6ac0d38954"><param name="Name" value="getInstance"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/db6/class_w_p_f_page_switch_1_1_option.html#ad20c7999cbd6bf4455b2fe607969e5b8"><param name="Name" value="images"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/db6/class_w_p_f_page_switch_1_1_option.html#a317fd55293bd6bbd222ccdfbc9e2812f"><param name="Name" value="InitializeComponent"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/db6/class_w_p_f_page_switch_1_1_option.html#a2782509bac0ef618eb057d30bb2d76ee"><param name="Name" value="obj2D"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/db6/class_w_p_f_page_switch_1_1_option.html#a977d3a7de4b2d1ded491150771ae0a06"><param name="Name" value="obj3D"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/db6/class_w_p_f_page_switch_1_1_option.html#abdc1ef228eec651bd7b1d080dc6aaf7e"><param name="Name" value="Option"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/db6/class_w_p_f_page_switch_1_1_option.html#ab9931ed6a02b7dc83bcd4c7a368e6d07"><param name="Name" value="rotate_left"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/db6/class_w_p_f_page_switch_1_1_option.html#a696d785be49fa21a97385cbd884b4bc9"><param name="Name" value="rotate_right"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="de/db6/class_w_p_f_page_switch_1_1_option.html#a376be63c0c1be45ecf6a73ea54872524"><param name="Name" value="UtilizeState"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/de4/class_w_p_f_page_switch_1_1_page_switcher.html"><param name="Name" value="WPFPageSwitch::PageSwitcher"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/de4/class_w_p_f_page_switch_1_1_page_switcher.html#a509631b93e88b2d86c2c4b19637db12b"><param name="Name" value="InitializeComponent"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/de4/class_w_p_f_page_switch_1_1_page_switcher.html#a4d77546e87edd3b1d8474f5d85cd8bee"><param name="Name" value="Navigate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/de4/class_w_p_f_page_switch_1_1_page_switcher.html#a11ddf72adcca16ab0cdc1437b762e46f"><param name="Name" value="PageSwitcher"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d7c/namespace_w_p_f_page_switch_1_1_properties.html"><param name="Name" value="WPFPageSwitch::Properties"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/d9d/class_w_p_f_page_switch_1_1_register.html"><param name="Name" value="WPFPageSwitch::Register"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d0/d9d/class_w_p_f_page_switch_1_1_register.html#ad5e641f96aa04b64e977304ace67812e"><param name="Name" value="InitializeComponent"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/db7/class_w_p_f_page_switch_1_1_screen_capture.html"><param name="Name" value="WPFPageSwitch::ScreenCapture"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/db7/class_w_p_f_page_switch_1_1_screen_capture.html#acdffec344290d15bf5c86df87bca930e"><param name="Name" value="CapturerBureauWindows"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d4/db7/class_w_p_f_page_switch_1_1_screen_capture.html#aa195fbb3dbbdb99e1a644baf235b35d4"><param name="Name" value="EnregistreCaptureBureau"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d36/class_w_p_f_page_switch_1_1_skeleton_info.html"><param name="Name" value="WPFPageSwitch::SkeletonInfo"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d36/class_w_p_f_page_switch_1_1_skeleton_info.html#a8fcb5e3dd96d1777bc8c6805135d822e"><param name="Name" value="FrameID"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="d1/d36/class_w_p_f_page_switch_1_1_skeleton_info.html#a75b7e8daeca9c2bb1d9782edb62522dc"><param name="Name" value="Skeleton"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="db/df1/class_w_p_f_page_switch_1_1_window1.html"><param name="Name" value="WPFPageSwitch::Window1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="db/df1/class_w_p_f_page_switch_1_1_window1.html#ac08a96aca406bc48664fdd7468720981"><param name="Name" value="InitializeComponent"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d6/dc6/class_w_p_f_page_switch_1_1_cursor_point.html#af921ce768aa3273833fdc3e978e9f81e"><param name="Name" value="X"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d7/de3/namespace_xaml_generated_namespace.html"><param name="Name" value="XamlGeneratedNamespace"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/db0/class_xaml_generated_namespace_1_1_generated_internal_type_helper.html"><param name="Name" value="XamlGeneratedNamespace::GeneratedInternalTypeHelper"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/db0/class_xaml_generated_namespace_1_1_generated_internal_type_helper.html#a73471f4a6d1ca4c4fceec9ad8610f0c8"><param name="Name" value="AddEventHandler"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/db0/class_xaml_generated_namespace_1_1_generated_internal_type_helper.html#a8ec4c37e82d9f4e867e9655f4eac3a78"><param name="Name" value="CreateDelegate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/db0/class_xaml_generated_namespace_1_1_generated_internal_type_helper.html#aefb7a98fceb9c287cef4756942f441d1"><param name="Name" value="CreateInstance"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/db0/class_xaml_generated_namespace_1_1_generated_internal_type_helper.html#afdc9fe15b56607d02082908d934480c6"><param name="Name" value="GetPropertyValue"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="dc/db0/class_xaml_generated_namespace_1_1_generated_internal_type_helper.html#ade0f04c0f7b18dd5b170e071d5534d38"><param name="Name" value="SetPropertyValue"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="d6/dc6/class_w_p_f_page_switch_1_1_cursor_point.html#a20a949e5e110f776c0a98dd0bc72f0c5"><param name="Name" value="Y"></OBJECT>
+</UL>
+</BODY>
+</HTML>

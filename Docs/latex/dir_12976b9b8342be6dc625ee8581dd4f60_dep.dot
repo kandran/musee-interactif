@@ -1,0 +1,14 @@
+digraph "WPFPageSwitcher/WPFPageSwitch/Backup" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_5df0347b05456ddbd917cf402268b1cf {
+    graph [ bgcolor="#ddddee", pencolor="black", label="WPFPageSwitch" fontname="Helvetica", fontsize="10", URL="dir_5df0347b05456ddbd917cf402268b1cf.html"]
+  subgraph clusterdir_12976b9b8342be6dc625ee8581dd4f60 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_12976b9b8342be6dc625ee8581dd4f60.html"];
+    dir_12976b9b8342be6dc625ee8581dd4f60 [shape=plaintext label="Backup"];
+    dir_40b92d2bc5342a4c0076314554a5cdb7 [shape=box label="Menu" color="black" fillcolor="white" style="filled" URL="dir_40b92d2bc5342a4c0076314554a5cdb7.html"];
+    dir_e9dbe702d2339016f9db323f92b0c5f9 [shape=box label="Properties" color="black" fillcolor="white" style="filled" URL="dir_e9dbe702d2339016f9db323f92b0c5f9.html"];
+  }
+  }
+}

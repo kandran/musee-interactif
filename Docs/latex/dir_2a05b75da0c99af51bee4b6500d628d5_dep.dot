@@ -1,0 +1,9 @@
+digraph "WPFPageSwitcher/WPFPageSwitch/Properties" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_5df0347b05456ddbd917cf402268b1cf {
+    graph [ bgcolor="#ddddee", pencolor="black", label="WPFPageSwitch" fontname="Helvetica", fontsize="10", URL="dir_5df0347b05456ddbd917cf402268b1cf.html"]
+  dir_2a05b75da0c99af51bee4b6500d628d5 [shape=box, label="Properties", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2a05b75da0c99af51bee4b6500d628d5.html"];
+  }
+}

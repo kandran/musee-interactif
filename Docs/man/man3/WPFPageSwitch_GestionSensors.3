@@ -1,0 +1,244 @@
+.TH "WPFPageSwitch.GestionSensors" 3 "Dimanche 18 Mai 2014" "VirtualDressroom" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WPFPageSwitch.GestionSensors \- 
+.PP
+Manage sensors : Basics  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Fonctions membres publiques"
+
+.in +1c
+.ti -1c
+.RI "\fBGestionSensors\fP ()"
+.br
+.RI "\fIConstructor \fP"
+.ti -1c
+.RI "bool \fBhaveSensors\fP ()"
+.br
+.RI "\fISay if we have sensors up \fP"
+.ti -1c
+.RI "int \fBbindSensor\fP (int sensorNumber=0)"
+.br
+.RI "\fIBind a sensor with the sensors manager\&. Verify if this sensors exist, else use the default value 0 \fP"
+.ti -1c
+.RI "void \fBchangeStateSensor\fP (bool state)"
+.br
+.RI "\fIChange the state of use for the sensors \fP"
+.ti -1c
+.RI "int \fBuseSensor\fP (int sensorNumber=0)"
+.br
+.RI "\fIFor using sensor in one step \fP"
+.ti -1c
+.RI "void \fBuseColorStream\fP (\fBMainInterface\fP m)"
+.br
+.RI "\fIEnable color stream and attach him a target \fP"
+.ti -1c
+.RI "void \fBsensor_ColorFrameReady\fP (object sender, ColorImageFrameReadyEventArgs e)"
+.br
+.RI "\fIColor frame main class (video stream) \fP"
+.ti -1c
+.RI "void \fBuseDepth\fP (\fBMainInterface\fP e)"
+.br
+.RI "\fIUse depth for an img \fP"
+.ti -1c
+.RI "void \fBuseSkeleton\fP (\fBMainInterface\fP e)"
+.br
+.RI "\fIPermet d'utiliser le squelette et afficher les vetements \fP"
+.ti -1c
+.RI "Point \fBScalePosition\fP (SkeletonPoint skeletonPoint)"
+.br
+.RI "\fIScales the position\&. \fP"
+.ti -1c
+.RI "float \fBScale\fP (float value, int max)"
+.br
+.in -1c
+.SS "Attributs publics"
+
+.in +1c
+.ti -1c
+.RI "const bool \fBSTART\fP = true"
+.br
+.RI "\fIBoolean for start sensor \fP"
+.ti -1c
+.RI "const bool \fBSTOP\fP = false"
+.br
+.RI "\fIBoolean for stop sensor \fP"
+.ti -1c
+.RI "int \fBdepthWidth\fP"
+.br
+.ti -1c
+.RI "int \fBdepthHeight\fP"
+.br
+.ti -1c
+.RI "int \fBcolorWidth\fP"
+.br
+.ti -1c
+.RI "int \fBcolorHeight\fP"
+.br
+.in -1c
+.SS "Propriétés"
+
+.in +1c
+.ti -1c
+.RI "KinectSensor \fBsensor\fP\fC [get, set]\fP"
+.br
+.RI "\fIDefine the kinect sensor \fP"
+.ti -1c
+.RI "int \fBnbSensors\fP\fC [get, set]\fP"
+.br
+.RI "\fIDefine the number of sensor available \fP"
+.in -1c
+.SH "Description détaillée"
+.PP 
+Manage sensors : Basics 
+
+Classe de gestion des capteurs : squelette 
+.PP
+Gestion Sensors : specialized with depth and green screen 
+.PP
+Manage Sensors : specialized for color stream 
+.SH "Documentation des constructeurs et destructeur"
+.PP 
+.SS "WPFPageSwitch\&.GestionSensors\&.GestionSensors ()"
+
+.PP
+Constructor 
+.SH "Documentation des fonctions membres"
+.PP 
+.SS "int WPFPageSwitch\&.GestionSensors\&.bindSensor (intsensorNumber = \fC0\fP)"
+
+.PP
+Bind a sensor with the sensors manager\&. Verify if this sensors exist, else use the default value 0 
+.PP
+\fBParamètres:\fP
+.RS 4
+\fIsensorNumber\fP Number of sensors
+.RE
+.PP
+
+.SS "void WPFPageSwitch\&.GestionSensors\&.changeStateSensor (boolstate)"
+
+.PP
+Change the state of use for the sensors 
+.PP
+\fBParamètres:\fP
+.RS 4
+\fIstate\fP New state
+.RE
+.PP
+
+.SS "bool WPFPageSwitch\&.GestionSensors\&.haveSensors ()"
+
+.PP
+Say if we have sensors up 
+.PP
+\fBRenvoie:\fP
+.RS 4
+True if sensors was available false else
+.RE
+.PP
+
+.SS "Point WPFPageSwitch\&.GestionSensors\&.ScalePosition (SkeletonPointskeletonPoint)"
+
+.PP
+Scales the position\&. 
+.PP
+\fBParamètres:\fP
+.RS 4
+\fIskeletonPoint\fP The skeleton point\&.
+.RE
+.PP
+\fBRenvoie:\fP
+.RS 4
+.RE
+.PP
+
+.SS "void WPFPageSwitch\&.GestionSensors\&.sensor_ColorFrameReady (objectsender, ColorImageFrameReadyEventArgse)"
+
+.PP
+Color frame main class (video stream) 
+.PP
+\fBParamètres:\fP
+.RS 4
+\fIsender\fP 
+.br
+\fIe\fP 
+.RE
+.PP
+
+.SS "void WPFPageSwitch\&.GestionSensors\&.useColorStream (\fBMainInterface\fPm)"
+
+.PP
+Enable color stream and attach him a target 
+.PP
+\fBParamètres:\fP
+.RS 4
+\fIm\fP Caller class
+.RE
+.PP
+
+.SS "void WPFPageSwitch\&.GestionSensors\&.useDepth (\fBMainInterface\fPe)"
+
+.PP
+Use depth for an img 
+.PP
+\fBParamètres:\fP
+.RS 4
+\fIe\fP Caller object
+.RE
+.PP
+
+.SS "int WPFPageSwitch\&.GestionSensors\&.useSensor (intsensorNumber = \fC0\fP)"
+
+.PP
+For using sensor in one step 
+.PP
+\fBParamètres:\fP
+.RS 4
+\fIsensorNumber\fP Kinect a utiliser, par defaut la premiere
+.RE
+.PP
+\fBRenvoie:\fP
+.RS 4
+.RE
+.PP
+
+.SS "void WPFPageSwitch\&.GestionSensors\&.useSkeleton (\fBMainInterface\fPe)"
+
+.PP
+Permet d'utiliser le squelette et afficher les vetements 
+.PP
+\fBParamètres:\fP
+.RS 4
+\fIe\fP Instance vers l'appellant
+.RE
+.PP
+
+.SH "Documentation des données membres"
+.PP 
+.SS "const bool WPFPageSwitch\&.GestionSensors\&.START = true"
+
+.PP
+Boolean for start sensor 
+.SS "const bool WPFPageSwitch\&.GestionSensors\&.STOP = false"
+
+.PP
+Boolean for stop sensor 
+.SH "Documentation des propriétés"
+.PP 
+.SS "int WPFPageSwitch\&.GestionSensors\&.nbSensors\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Define the number of sensor available 
+.SS "KinectSensor WPFPageSwitch\&.GestionSensors\&.sensor\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Define the kinect sensor 
+
+.SH "Auteur"
+.PP 
+Généré automatiquement par Doxygen pour VirtualDressroom à partir du code source\&.

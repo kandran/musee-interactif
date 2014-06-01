@@ -1,0 +1,13 @@
+digraph "WPFPageSwitcher/WPFPageSwitch/obj" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_5df0347b05456ddbd917cf402268b1cf {
+    graph [ bgcolor="#ddddee", pencolor="black", label="WPFPageSwitch" fontname="Helvetica", fontsize="10", URL="dir_5df0347b05456ddbd917cf402268b1cf.html"]
+  subgraph clusterdir_85e1ba1b68b126724ae79fd1a945e686 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_85e1ba1b68b126724ae79fd1a945e686.html"];
+    dir_85e1ba1b68b126724ae79fd1a945e686 [shape=plaintext label="obj"];
+    dir_9d16b4d4c819d2fe50d05ca85b6a9862 [shape=box label="Debug" color="red" fillcolor="white" style="filled" URL="dir_9d16b4d4c819d2fe50d05ca85b6a9862.html"];
+  }
+  }
+}
