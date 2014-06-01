@@ -36,5 +36,4 @@ Notre application utilise les technologies suivantes:
 * [Tumblr](http://musee-interactif.tumblr.com/)
 * [Scoop.it](http://www.scoop.it/t/musee-virtuel)
 * [Fichier d'installation](https://mega.co.nz/#!QhJm1BRa!Q99LXNwfFgwFMsnGWpkJItitPSAFc7fp85jFmKtLvGE)
-* 
 
