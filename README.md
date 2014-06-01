@@ -19,7 +19,7 @@ Notre application utilise les technologies suivantes:
 * SDK Kinect
 * XML
 * Blender
-* Doxygen
+* Doxygen (génération de la documentation)
 * Photoshop
 
 
