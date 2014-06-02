@@ -1,0 +1,1 @@
+Dans ce dossier sont enregistré les captures d'ecran au format ddMMyyyyhhmmss
