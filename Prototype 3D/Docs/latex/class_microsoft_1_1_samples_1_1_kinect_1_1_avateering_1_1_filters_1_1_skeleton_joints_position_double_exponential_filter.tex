@@ -1,0 +1,159 @@
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter}{\section{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter Class Reference}
+\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter}\index{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter@{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter}}
+}
+
+
+Implementation of a Holt Double Exponential Smoothing filter. The double exponential smooths the curve and predicts. There is also noise jitter removal. And maximum prediction bounds. The parameters are commented in the Init function.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter_a115c464c8c6f81e223a1aa1382a3f378}{Skeleton\+Joints\+Position\+Double\+Exponential\+Filter} ()
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter}{Skeleton\+Joints\+Position\+Double\+Exponential\+Filter} class. \end{DoxyCompactList}\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter_af77cac1895ff63de0a69d3306c06b00b}{Init} ()
+\begin{DoxyCompactList}\small\item\em Initialize the filter with a default set of Transform\+Smooth\+Parameters. \end{DoxyCompactList}\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter_a72c4b893a04f0da0a00e7d76fe94a1ab}{Init} (float smoothing\+Value, float correction\+Value, float prediction\+Value, float jitter\+Radius\+Value, float max\+Deviation\+Radius\+Value)
+\begin{DoxyCompactList}\small\item\em Initialize the filter with a set of manually specified Transform\+Smooth\+Parameters. \end{DoxyCompactList}\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter_ad4161509f17d4ee6809dd8d191dc2c56}{Init} (Transform\+Smooth\+Parameters smoothing\+Parameters)
+\begin{DoxyCompactList}\small\item\em Initialize the filter with a set of Transform\+Smooth\+Parameters. \end{DoxyCompactList}\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter_a63907db70c589d23fe7302456ab58fe1}{Reset} ()
+\begin{DoxyCompactList}\small\item\em Resets the filter to default values. \end{DoxyCompactList}\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter_a1853f70c62337ea0d07e4d590a06d5ab}{Update\+Filter} (Skeleton skeleton)
+\begin{DoxyCompactList}\small\item\em Update the filter with a new frame of data and smooth. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter_acb576687a841dfb4d89b219bae4b6897}{Filter\+Joint} (Skeleton skeleton, Joint\+Type jt, Transform\+Smooth\+Parameters smoothing\+Parameters)
+\begin{DoxyCompactList}\small\item\em Update the filter for one joint. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implementation of a Holt Double Exponential Smoothing filter. The double exponential smooths the curve and predicts. There is also noise jitter removal. And maximum prediction bounds. The parameters are commented in the Init function. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter_a115c464c8c6f81e223a1aa1382a3f378}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter}!Skeleton\+Joints\+Position\+Double\+Exponential\+Filter@{Skeleton\+Joints\+Position\+Double\+Exponential\+Filter}}
+\index{Skeleton\+Joints\+Position\+Double\+Exponential\+Filter@{Skeleton\+Joints\+Position\+Double\+Exponential\+Filter}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter}}
+\subsubsection[{Skeleton\+Joints\+Position\+Double\+Exponential\+Filter}]{\setlength{\rightskip}{0pt plus 5cm}Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter.\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter_a115c464c8c6f81e223a1aa1382a3f378}
+
+
+Initializes a new instance of the \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter}{Skeleton\+Joints\+Position\+Double\+Exponential\+Filter} class. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter_acb576687a841dfb4d89b219bae4b6897}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter}!Filter\+Joint@{Filter\+Joint}}
+\index{Filter\+Joint@{Filter\+Joint}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter}}
+\subsubsection[{Filter\+Joint}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter.\+Filter\+Joint (
+\begin{DoxyParamCaption}
+\item[{Skeleton}]{skeleton, }
+\item[{Joint\+Type}]{jt, }
+\item[{Transform\+Smooth\+Parameters}]{smoothing\+Parameters}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter_acb576687a841dfb4d89b219bae4b6897}
+
+
+Update the filter for one joint. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em skeleton} & The Skeleton to filter.\\
+\hline
+{\em jt} & The Skeleton Joint index to filter.\\
+\hline
+{\em smoothing\+Parameters} & The Smoothing parameters to apply.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter_af77cac1895ff63de0a69d3306c06b00b}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter}!Init@{Init}}
+\index{Init@{Init}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter}}
+\subsubsection[{Init}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter.\+Init (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter_af77cac1895ff63de0a69d3306c06b00b}
+
+
+Initialize the filter with a default set of Transform\+Smooth\+Parameters. 
+
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter_a72c4b893a04f0da0a00e7d76fe94a1ab}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter}!Init@{Init}}
+\index{Init@{Init}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter}}
+\subsubsection[{Init}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter.\+Init (
+\begin{DoxyParamCaption}
+\item[{float}]{smoothing\+Value, }
+\item[{float}]{correction\+Value, }
+\item[{float}]{prediction\+Value, }
+\item[{float}]{jitter\+Radius\+Value, }
+\item[{float}]{max\+Deviation\+Radius\+Value}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter_a72c4b893a04f0da0a00e7d76fe94a1ab}
+
+
+Initialize the filter with a set of manually specified Transform\+Smooth\+Parameters. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em smoothing\+Value} & Smoothing = \mbox{[}0..1\mbox{]}, lower values is closer to the raw data and more noisy.\\
+\hline
+{\em correction\+Value} & Correction = \mbox{[}0..1\mbox{]}, higher values correct faster and feel more responsive.\\
+\hline
+{\em prediction\+Value} & Prediction = \mbox{[}0..n\mbox{]}, how many frames into the future we want to predict.\\
+\hline
+{\em jitter\+Radius\+Value} & Jitter\+Radius = The deviation distance in m that defines jitter.\\
+\hline
+{\em max\+Deviation\+Radius\+Value} & Max\+Deviation = The maximum distance in m that filtered positions are allowed to deviate from raw data.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter_ad4161509f17d4ee6809dd8d191dc2c56}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter}!Init@{Init}}
+\index{Init@{Init}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter}}
+\subsubsection[{Init}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter.\+Init (
+\begin{DoxyParamCaption}
+\item[{Transform\+Smooth\+Parameters}]{smoothing\+Parameters}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter_ad4161509f17d4ee6809dd8d191dc2c56}
+
+
+Initialize the filter with a set of Transform\+Smooth\+Parameters. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em smoothing\+Parameters} & The smoothing parameters to filter with.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter_a63907db70c589d23fe7302456ab58fe1}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter}!Reset@{Reset}}
+\index{Reset@{Reset}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter}}
+\subsubsection[{Reset}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter.\+Reset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter_a63907db70c589d23fe7302456ab58fe1}
+
+
+Resets the filter to default values. 
+
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter_a1853f70c62337ea0d07e4d590a06d5ab}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter}!Update\+Filter@{Update\+Filter}}
+\index{Update\+Filter@{Update\+Filter}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter}}
+\subsubsection[{Update\+Filter}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Skeleton\+Joints\+Position\+Double\+Exponential\+Filter.\+Update\+Filter (
+\begin{DoxyParamCaption}
+\item[{Skeleton}]{skeleton}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter_a1853f70c62337ea0d07e4d590a06d5ab}
+
+
+Update the filter with a new frame of data and smooth. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em skeleton} & The Skeleton to filter.\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Avateering/\+Filters/Skeleton\+Joints\+Position\+Double\+Exponential\+Filter.\+cs\end{DoxyCompactItemize}

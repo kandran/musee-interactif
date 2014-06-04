@@ -1,0 +1,77 @@
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_filter_clipped_legs}{\section{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Skeleton\+Joints\+Filter\+Clipped\+Legs Class Reference}
+\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_filter_clipped_legs}\index{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Skeleton\+Joints\+Filter\+Clipped\+Legs@{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Skeleton\+Joints\+Filter\+Clipped\+Legs}}
+}
+
+
+Filter\+Clipped\+Legs smooths out leg joint positions when the skeleton is clipped by the bottom of the camera F\+O\+V. Inferred joint positions from the skeletal tracker can occasionally be noisy or erroneous, based on limited depth image pixels from the parts of the legs in view. This filter applies a lot of smoothing using a double exponential filter, letting through just enough leg movement to show a kick or high step. Based on the amount of leg that is clipped/inferred, the smoothed data is feathered into the skeleton output data.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_filter_clipped_legs_aef24b15a7f5d3d1229711af10c1c16f2}{Skeleton\+Joints\+Filter\+Clipped\+Legs} ()
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_filter_clipped_legs}{Skeleton\+Joints\+Filter\+Clipped\+Legs} class. \end{DoxyCompactList}\item 
+bool \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_filter_clipped_legs_ab895f4113df237008e3f8f734c0a2919}{Filter\+Skeleton} (Skeleton skeleton, float delta\+Nui\+Time)
+\begin{DoxyCompactList}\small\item\em Name\+: Filter\+Skeleton -\/ Implements the per-\/frame filter logic for the arms up patch. \end{DoxyCompactList}\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_filter_clipped_legs_a97c249e8768e13c5efbf8c87f33c5fe2}{Reset} ()
+\begin{DoxyCompactList}\small\item\em Resets filter state to defaults. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Filter\+Clipped\+Legs smooths out leg joint positions when the skeleton is clipped by the bottom of the camera F\+O\+V. Inferred joint positions from the skeletal tracker can occasionally be noisy or erroneous, based on limited depth image pixels from the parts of the legs in view. This filter applies a lot of smoothing using a double exponential filter, letting through just enough leg movement to show a kick or high step. Based on the amount of leg that is clipped/inferred, the smoothed data is feathered into the skeleton output data. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_filter_clipped_legs_aef24b15a7f5d3d1229711af10c1c16f2}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Filter\+Clipped\+Legs@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Filter\+Clipped\+Legs}!Skeleton\+Joints\+Filter\+Clipped\+Legs@{Skeleton\+Joints\+Filter\+Clipped\+Legs}}
+\index{Skeleton\+Joints\+Filter\+Clipped\+Legs@{Skeleton\+Joints\+Filter\+Clipped\+Legs}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Filter\+Clipped\+Legs@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Filter\+Clipped\+Legs}}
+\subsubsection[{Skeleton\+Joints\+Filter\+Clipped\+Legs}]{\setlength{\rightskip}{0pt plus 5cm}Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Skeleton\+Joints\+Filter\+Clipped\+Legs.\+Skeleton\+Joints\+Filter\+Clipped\+Legs (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_filter_clipped_legs_aef24b15a7f5d3d1229711af10c1c16f2}
+
+
+Initializes a new instance of the \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_filter_clipped_legs}{Skeleton\+Joints\+Filter\+Clipped\+Legs} class. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_filter_clipped_legs_ab895f4113df237008e3f8f734c0a2919}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Filter\+Clipped\+Legs@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Filter\+Clipped\+Legs}!Filter\+Skeleton@{Filter\+Skeleton}}
+\index{Filter\+Skeleton@{Filter\+Skeleton}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Filter\+Clipped\+Legs@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Filter\+Clipped\+Legs}}
+\subsubsection[{Filter\+Skeleton}]{\setlength{\rightskip}{0pt plus 5cm}bool Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Skeleton\+Joints\+Filter\+Clipped\+Legs.\+Filter\+Skeleton (
+\begin{DoxyParamCaption}
+\item[{Skeleton}]{skeleton, }
+\item[{float}]{delta\+Nui\+Time}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_filter_clipped_legs_ab895f4113df237008e3f8f734c0a2919}
+
+
+Name\+: Filter\+Skeleton -\/ Implements the per-\/frame filter logic for the arms up patch. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em skeleton} & The skeleton to filter.\\
+\hline
+{\em delta\+Nui\+Time} & Time since the last filter update.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns true if filter runs, false if it did not run.
+\end{DoxyReturn}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_filter_clipped_legs_a97c249e8768e13c5efbf8c87f33c5fe2}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Filter\+Clipped\+Legs@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Filter\+Clipped\+Legs}!Reset@{Reset}}
+\index{Reset@{Reset}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Filter\+Clipped\+Legs@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Filter\+Clipped\+Legs}}
+\subsubsection[{Reset}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Skeleton\+Joints\+Filter\+Clipped\+Legs.\+Reset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_filter_clipped_legs_a97c249e8768e13c5efbf8c87f33c5fe2}
+
+
+Resets filter state to defaults. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Avateering/\+Filters/Skeleton\+Joints\+Filter\+Clipped\+Legs.\+cs\end{DoxyCompactItemize}

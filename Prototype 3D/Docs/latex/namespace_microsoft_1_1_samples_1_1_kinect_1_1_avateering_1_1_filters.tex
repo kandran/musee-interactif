@@ -1,0 +1,34 @@
+\hypertarget{namespace_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters}{\section{Package Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters}
+\label{namespace_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters}\index{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters@{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_bone_orientation_constraints}{Bone\+Orientation\+Constraints}
+\begin{DoxyCompactList}\small\item\em Filter to correct the joint locations and joint orientations to constraint to range of viable human motion. \end{DoxyCompactList}\item 
+class \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_bone_orientation_double_exponential_filter}{Bone\+Orientation\+Double\+Exponential\+Filter}
+\begin{DoxyCompactList}\small\item\em Implementation of a Holt Double Exponential Smoothing filter for orientation. The double exponential smooths the curve and predicts. There is also noise jitter removal. And maximum prediction bounds. The parameters are commented in the Init function. \end{DoxyCompactList}\item 
+class {\bfseries Native\+Methods}
+\begin{DoxyCompactList}\small\item\em Native Methods. \end{DoxyCompactList}\item 
+class \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_filter_clipped_legs}{Skeleton\+Joints\+Filter\+Clipped\+Legs}
+\begin{DoxyCompactList}\small\item\em Filter\+Clipped\+Legs smooths out leg joint positions when the skeleton is clipped by the bottom of the camera F\+O\+V. Inferred joint positions from the skeletal tracker can occasionally be noisy or erroneous, based on limited depth image pixels from the parts of the legs in view. This filter applies a lot of smoothing using a double exponential filter, letting through just enough leg movement to show a kick or high step. Based on the amount of leg that is clipped/inferred, the smoothed data is feathered into the skeleton output data. \end{DoxyCompactList}\item 
+class {\bfseries Skeleton\+Joints\+Mirror}
+\begin{DoxyCompactList}\small\item\em Filter to mirror skeleton joints so that avatar appears to mirror the user when displayed on screen. \end{DoxyCompactList}\item 
+class \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_position_double_exponential_filter}{Skeleton\+Joints\+Position\+Double\+Exponential\+Filter}
+\begin{DoxyCompactList}\small\item\em Implementation of a Holt Double Exponential Smoothing filter. The double exponential smooths the curve and predicts. There is also noise jitter removal. And maximum prediction bounds. The parameters are commented in the Init function. \end{DoxyCompactList}\item 
+class {\bfseries Skeleton\+Joints\+Self\+Intersection\+Constraint}
+\begin{DoxyCompactList}\small\item\em Filter to prevent skeleton arm joints from intersecting the \char`\"{}body\char`\"{}. \end{DoxyCompactList}\item 
+class \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_sensor_offset_correction}{Skeleton\+Joints\+Sensor\+Offset\+Correction}
+\begin{DoxyCompactList}\small\item\em Filter to correct the skeleton position for the sensor height above the floor, to enable an avatar to be placed with feet on the ground plane. \end{DoxyCompactList}\item 
+class {\bfseries Skeleton\+Joints\+Sensor\+Tilt\+Correction}
+\begin{DoxyCompactList}\small\item\em Filter to correct the joint positions for camera tilt, which enables the sensor to be placed at different locations and un-\/tilt and skeleton to still appear upright. \end{DoxyCompactList}\item 
+class \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp}{Timed\+Lerp}
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp}{Timed\+Lerp} -\/ Maintains a time-\/based lerp between 0 and a upper limit between 0 and 1. The lerp speed parameter is in units of inverse time -\/ therefore, a speed of 2.\+0 means that the lerp completes a full transition (0 to 1) in 0.\+5 seconds. \end{DoxyCompactList}\item 
+class \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer}{Timer}
+\begin{DoxyCompactList}\small\item\em Class \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer}{Timer} is a helper class to perform timer operations For stop-\/watch timer functionality, use\+: \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a463741040cda49273475a5722322b73d}{Start()} -\/ To start the timer \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a018da7ed7832a2257569dd87e68e6137}{Stop()} -\/ To stop (or pause) the timer \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a938e1304e5e4aaa916a5ef010ff8fc28}{Reset()} -\/ To reset the timer Time -\/ Returns current time or last stopped time For app-\/timing and per-\/frame updates, use\+: Absolute\+Time -\/ To get the absolute system time Get\+App\+Time() -\/ To get the running time since construction (which is usually the start of the app) Get\+Elapsed\+Time() -\/ To get the time that elapsed since the previous call Get\+Elapsed\+Time() call \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a02e586f1d448e09be37c47a28791d0fc}{Single\+Step()} -\/ To advance the timer by a time delta \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{namespace_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_ad936d0c82f94228f325de9ade835245e}{using {\bfseries Vector4} = Microsoft.\+Xna.\+Framework.\+Vector4}\label{namespace_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_ad936d0c82f94228f325de9ade835245e}
+
+\end{DoxyCompactItemize}

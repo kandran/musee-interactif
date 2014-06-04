@@ -1,0 +1,159 @@
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_bone_orientation_constraints}{\section{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Bone\+Orientation\+Constraints Class Reference}
+\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_bone_orientation_constraints}\index{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Bone\+Orientation\+Constraints@{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Bone\+Orientation\+Constraints}}
+}
+
+
+Filter to correct the joint locations and joint orientations to constraint to range of viable human motion.  
+
+
+Inheritance diagram for Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Bone\+Orientation\+Constraints\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_bone_orientation_constraints}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_bone_orientation_constraints_a465df7ac1591095215188b055402e904}{Bone\+Orientation\+Constraints} (Game game, Vector3 skeleton\+Translation\+Scale\+Factor)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_bone_orientation_constraints}{Bone\+Orientation\+Constraints} class. \end{DoxyCompactList}\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_bone_orientation_constraints_aa7de250ad471493e2c5122be569332bf}{Add\+Bone\+Orientation\+Constraint} (Joint\+Type joint, Vector3 dir, float angle)
+\begin{DoxyCompactList}\small\item\em Add\+Joint\+Constraint -\/ Adds a joint constraint to the system. \end{DoxyCompactList}\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_bone_orientation_constraints_a765f01d12d283f765257f34ef606b812}{Add\+Default\+Constraints} ()
+\begin{DoxyCompactList}\small\item\em Add\+Default\+Constraints -\/ Adds a set of default joint constraints for normal human poses. This is a reasonable set of constraints for plausible human bio-\/mechanics. \end{DoxyCompactList}\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_bone_orientation_constraints_ac5ad273f2b1ee5a6fafef733290ce114}{Constrain} (Skeleton skeleton, bool mirror\+View)
+\begin{DoxyCompactList}\small\item\em Apply\+Bone\+Orientation\+Constraints and constrain rotations. \end{DoxyCompactList}\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_bone_orientation_constraints_aecf019a3f152a6b4cdfb6d4f12e6c08c}{Draw} (Game\+Time game\+Time, Skeleton skeleton, bool seated\+Mode, Matrix world, Matrix view, Matrix projection)
+\begin{DoxyCompactList}\small\item\em This method draws the skeleton frame data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_bone_orientation_constraints_a1bb46b424bb16f4839ae25cdc80bbad9}{Load\+Content} ()
+\begin{DoxyCompactList}\small\item\em This method loads the avatar model mesh and sets the bind pose. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Filter to correct the joint locations and joint orientations to constraint to range of viable human motion. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_bone_orientation_constraints_a465df7ac1591095215188b055402e904}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Bone\+Orientation\+Constraints@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Bone\+Orientation\+Constraints}!Bone\+Orientation\+Constraints@{Bone\+Orientation\+Constraints}}
+\index{Bone\+Orientation\+Constraints@{Bone\+Orientation\+Constraints}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Bone\+Orientation\+Constraints@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Bone\+Orientation\+Constraints}}
+\subsubsection[{Bone\+Orientation\+Constraints}]{\setlength{\rightskip}{0pt plus 5cm}Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Bone\+Orientation\+Constraints.\+Bone\+Orientation\+Constraints (
+\begin{DoxyParamCaption}
+\item[{Game}]{game, }
+\item[{Vector3}]{skeleton\+Translation\+Scale\+Factor}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_bone_orientation_constraints_a465df7ac1591095215188b055402e904}
+
+
+Initializes a new instance of the \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_bone_orientation_constraints}{Bone\+Orientation\+Constraints} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & The related game object.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_bone_orientation_constraints_aa7de250ad471493e2c5122be569332bf}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Bone\+Orientation\+Constraints@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Bone\+Orientation\+Constraints}!Add\+Bone\+Orientation\+Constraint@{Add\+Bone\+Orientation\+Constraint}}
+\index{Add\+Bone\+Orientation\+Constraint@{Add\+Bone\+Orientation\+Constraint}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Bone\+Orientation\+Constraints@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Bone\+Orientation\+Constraints}}
+\subsubsection[{Add\+Bone\+Orientation\+Constraint}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Bone\+Orientation\+Constraints.\+Add\+Bone\+Orientation\+Constraint (
+\begin{DoxyParamCaption}
+\item[{Joint\+Type}]{joint, }
+\item[{Vector3}]{dir, }
+\item[{float}]{angle}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_bone_orientation_constraints_aa7de250ad471493e2c5122be569332bf}
+
+
+Add\+Joint\+Constraint -\/ Adds a joint constraint to the system. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em joint} & The skeleton joint/bone.\\
+\hline
+{\em dir} & The absolute dir for the center of the constraint cone.\\
+\hline
+{\em angle} & The angle of the constraint cone that the bone can move in.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_bone_orientation_constraints_a765f01d12d283f765257f34ef606b812}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Bone\+Orientation\+Constraints@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Bone\+Orientation\+Constraints}!Add\+Default\+Constraints@{Add\+Default\+Constraints}}
+\index{Add\+Default\+Constraints@{Add\+Default\+Constraints}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Bone\+Orientation\+Constraints@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Bone\+Orientation\+Constraints}}
+\subsubsection[{Add\+Default\+Constraints}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Bone\+Orientation\+Constraints.\+Add\+Default\+Constraints (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_bone_orientation_constraints_a765f01d12d283f765257f34ef606b812}
+
+
+Add\+Default\+Constraints -\/ Adds a set of default joint constraints for normal human poses. This is a reasonable set of constraints for plausible human bio-\/mechanics. 
+
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_bone_orientation_constraints_ac5ad273f2b1ee5a6fafef733290ce114}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Bone\+Orientation\+Constraints@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Bone\+Orientation\+Constraints}!Constrain@{Constrain}}
+\index{Constrain@{Constrain}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Bone\+Orientation\+Constraints@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Bone\+Orientation\+Constraints}}
+\subsubsection[{Constrain}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Bone\+Orientation\+Constraints.\+Constrain (
+\begin{DoxyParamCaption}
+\item[{Skeleton}]{skeleton, }
+\item[{bool}]{mirror\+View}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_bone_orientation_constraints_ac5ad273f2b1ee5a6fafef733290ce114}
+
+
+Apply\+Bone\+Orientation\+Constraints and constrain rotations. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em skeleton} & The skeleton to correct.\\
+\hline
+{\em mirror\+View} & Set this true if the skeleton joints are mirrored.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_bone_orientation_constraints_aecf019a3f152a6b4cdfb6d4f12e6c08c}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Bone\+Orientation\+Constraints@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Bone\+Orientation\+Constraints}!Draw@{Draw}}
+\index{Draw@{Draw}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Bone\+Orientation\+Constraints@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Bone\+Orientation\+Constraints}}
+\subsubsection[{Draw}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Bone\+Orientation\+Constraints.\+Draw (
+\begin{DoxyParamCaption}
+\item[{Game\+Time}]{game\+Time, }
+\item[{Skeleton}]{skeleton, }
+\item[{bool}]{seated\+Mode, }
+\item[{Matrix}]{world, }
+\item[{Matrix}]{view, }
+\item[{Matrix}]{projection}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_bone_orientation_constraints_aecf019a3f152a6b4cdfb6d4f12e6c08c}
+
+
+This method draws the skeleton frame data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Time} & The elapsed game time.\\
+\hline
+{\em skeleton} & The skeleton to correct.\\
+\hline
+{\em seated\+Mode} & Set true if in seated mode.\\
+\hline
+{\em world} & The world matrix.\\
+\hline
+{\em view} & The view matrix.\\
+\hline
+{\em projection} & The projection matrix.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_bone_orientation_constraints_a1bb46b424bb16f4839ae25cdc80bbad9}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Bone\+Orientation\+Constraints@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Bone\+Orientation\+Constraints}!Load\+Content@{Load\+Content}}
+\index{Load\+Content@{Load\+Content}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Bone\+Orientation\+Constraints@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Bone\+Orientation\+Constraints}}
+\subsubsection[{Load\+Content}]{\setlength{\rightskip}{0pt plus 5cm}override void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Bone\+Orientation\+Constraints.\+Load\+Content (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_bone_orientation_constraints_a1bb46b424bb16f4839ae25cdc80bbad9}
+
+
+This method loads the avatar model mesh and sets the bind pose. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Avateering/\+Filters/Bone\+Orientation\+Constraints.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,92 @@
+\hypertarget{namespace_microsoft_1_1_samples_1_1_kinect_1_1_avateering}{\section{Package Microsoft.\+Samples.\+Kinect.\+Avateering}
+\label{namespace_microsoft_1_1_samples_1_1_kinect_1_1_avateering}\index{Microsoft.\+Samples.\+Kinect.\+Avateering@{Microsoft.\+Samples.\+Kinect.\+Avateering}}
+}
+
+
+Programme de cabine d'essayage intéractive en 3\+D à partir du logiciel d'avatars fourni avec la kinect.  
+
+
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+package \hyperlink{namespace_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters}{Filters}
+\end{DoxyCompactItemize}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator}{Avatar\+Animator}
+\begin{DoxyCompactList}\small\item\em This class is responsible for animating an avatar using a skeleton stream. \end{DoxyCompactList}\item 
+class \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avateering_x_n_a}{Avateering\+X\+N\+A}
+\begin{DoxyCompactList}\small\item\em Ce programme permet de porter virtuellement des vêtements en 3\+D \end{DoxyCompactList}\item 
+class \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_color_stream_renderer}{Color\+Stream\+Renderer}
+\begin{DoxyCompactList}\small\item\em This class renders the current color stream frame. \end{DoxyCompactList}\item 
+class \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_coordinate_cross}{Coordinate\+Cross}
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_coordinate_cross}{Coordinate\+Cross} Class -\/ draws a \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_coordinate_cross}{Coordinate\+Cross} in the current coordinate system X\+N\+A uses a right hand coordinate system +\+X (right) is Red +\+Y (up) is Green +\+Z (forward) is Blue \end{DoxyCompactList}\item 
+class \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_depth_stream_renderer}{Depth\+Stream\+Renderer}
+\begin{DoxyCompactList}\small\item\em This class renders the current depth stream frame. \end{DoxyCompactList}\item 
+class \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_grid_xz}{Grid\+Xz}
+\begin{DoxyCompactList}\small\item\em Grid\+X\+Z Class -\/ draws a grid in X\+Z plane \end{DoxyCompactList}\item 
+class \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser}{Kinect\+Chooser}
+\begin{DoxyCompactList}\small\item\em This class will pick a \hyperlink{namespace_microsoft_1_1_samples_1_1_kinect}{Kinect} sensor, if available. \end{DoxyCompactList}\item 
+class {\bfseries Kinect\+Helper}
+\begin{DoxyCompactList}\small\item\em A set of useful helper functions for using \hyperlink{namespace_microsoft_1_1_samples_1_1_kinect}{Kinect} with X\+N\+A. \end{DoxyCompactList}\item 
+class \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_object2_d}{Object2\+D}
+\begin{DoxyCompactList}\small\item\em A very basic game component to track common values. \end{DoxyCompactList}\item 
+class {\bfseries Program}
+\begin{DoxyCompactList}\small\item\em The base X\+N\+A program. \end{DoxyCompactList}\item 
+class \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_skeleton_stream_renderer}{Skeleton\+Stream\+Renderer}
+\begin{DoxyCompactList}\small\item\em This class is responsible for rendering a skeleton stream. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+delegate void \hyperlink{namespace_microsoft_1_1_samples_1_1_kinect_1_1_avateering_a2c91e120476e4f1ece17c53d41ff8327}{Retarget\+Matrix\+Hierarchy\+To\+Avatar\+Mesh} (Skeleton skeleton, Matrix bind\+Root, Matrix\mbox{[}$\,$\mbox{]} bone\+Transforms)
+\begin{DoxyCompactList}\small\item\em A delegate method used by the animator to re-\/target the orientations to the model. \end{DoxyCompactList}\item 
+delegate Vector2 \hyperlink{namespace_microsoft_1_1_samples_1_1_kinect_1_1_avateering_ae8146e6f856d793f4fe4030a7a50a9d1}{Skeleton\+Point\+Map} (Skeleton\+Point point)
+\begin{DoxyCompactList}\small\item\em A delegate method explaining how to map a Skeleton\+Point from one space to another. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Programme de cabine d'essayage intéractive en 3\+D à partir du logiciel d'avatars fourni avec la kinect. 
+
+\subsection{Function Documentation}
+\hypertarget{namespace_microsoft_1_1_samples_1_1_kinect_1_1_avateering_a2c91e120476e4f1ece17c53d41ff8327}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering}!Retarget\+Matrix\+Hierarchy\+To\+Avatar\+Mesh@{Retarget\+Matrix\+Hierarchy\+To\+Avatar\+Mesh}}
+\index{Retarget\+Matrix\+Hierarchy\+To\+Avatar\+Mesh@{Retarget\+Matrix\+Hierarchy\+To\+Avatar\+Mesh}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering}}
+\subsubsection[{Retarget\+Matrix\+Hierarchy\+To\+Avatar\+Mesh}]{\setlength{\rightskip}{0pt plus 5cm}delegate void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Retarget\+Matrix\+Hierarchy\+To\+Avatar\+Mesh (
+\begin{DoxyParamCaption}
+\item[{Skeleton}]{skeleton, }
+\item[{Matrix}]{bind\+Root, }
+\item[{Matrix\mbox{[}$\,$\mbox{]}}]{bone\+Transforms}
+\end{DoxyParamCaption}
+)}}\label{namespace_microsoft_1_1_samples_1_1_kinect_1_1_avateering_a2c91e120476e4f1ece17c53d41ff8327}
+
+
+A delegate method used by the animator to re-\/target the orientations to the model. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em skeleton} & The Skeleton to retarget.\\
+\hline
+{\em bind\+Root} & The bind root matrix of the avatar mesh.\\
+\hline
+{\em bone\+Transforms} & The avatar mesh rotation matrices.\\
+\hline
+\end{DoxyParams}
+\hypertarget{namespace_microsoft_1_1_samples_1_1_kinect_1_1_avateering_ae8146e6f856d793f4fe4030a7a50a9d1}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering}!Skeleton\+Point\+Map@{Skeleton\+Point\+Map}}
+\index{Skeleton\+Point\+Map@{Skeleton\+Point\+Map}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering}}
+\subsubsection[{Skeleton\+Point\+Map}]{\setlength{\rightskip}{0pt plus 5cm}delegate Vector2 Microsoft.\+Samples.\+Kinect.\+Avateering.\+Skeleton\+Point\+Map (
+\begin{DoxyParamCaption}
+\item[{Skeleton\+Point}]{point}
+\end{DoxyParamCaption}
+)}}\label{namespace_microsoft_1_1_samples_1_1_kinect_1_1_avateering_ae8146e6f856d793f4fe4030a7a50a9d1}
+
+
+A delegate method explaining how to map a Skeleton\+Point from one space to another. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em point} & The Skeleton\+Point to map.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The Vector2 representing the target location.
+\end{DoxyReturn}

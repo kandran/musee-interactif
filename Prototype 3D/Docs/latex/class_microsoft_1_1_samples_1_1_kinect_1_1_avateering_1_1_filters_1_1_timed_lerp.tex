@@ -1,0 +1,239 @@
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp}{\section{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timed\+Lerp Class Reference}
+\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp}\index{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timed\+Lerp@{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timed\+Lerp}}
+}
+
+
+\hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp}{Timed\+Lerp} -\/ Maintains a time-\/based lerp between 0 and a upper limit between 0 and 1. The lerp speed parameter is in units of inverse time -\/ therefore, a speed of 2.\+0 means that the lerp completes a full transition (0 to 1) in 0.\+5 seconds.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a2fb853bc9258623a8661f0ce980d8482}{Timed\+Lerp} ()
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp}{Timed\+Lerp} class. \end{DoxyCompactList}\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a7b000562840aed3cb22da5305887c75f}{Set\+Speed} ()
+\begin{DoxyCompactList}\small\item\em Set speeds. \end{DoxyCompactList}\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a8c7da8003befabf88f27664f620edcc1}{Set\+Speed} (float ease\+In\+Speed, float ease\+Out\+Speed)
+\begin{DoxyCompactList}\small\item\em Set speeds. \end{DoxyCompactList}\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a9528c6e4965ee4613ee2078369cea2e7}{Set\+Enabled} (bool is\+Enabled)
+\begin{DoxyCompactList}\small\item\em Set whether the Lerp is enabled. \end{DoxyCompactList}\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a4f6ccd18411293b7713d22fed18c6cef}{Set\+Enabled} (float enabled)
+\begin{DoxyCompactList}\small\item\em Set the Lerp enable value. \end{DoxyCompactList}\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a66bc729b694f75f320315d7fe374d4c8}{Reset} ()
+\begin{DoxyCompactList}\small\item\em Re\+Set the Lerp. \end{DoxyCompactList}\item 
+bool \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_ab8f4dca739b0f1240a1bde6fa949fcdb}{Is\+Enabled} ()
+\begin{DoxyCompactList}\small\item\em Is\+Enabled reflects whether the target value is 0 or not. \end{DoxyCompactList}\item 
+bool \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_afbd26c2a019f4208b1b4fde7c0795a3a}{Is\+Lerp\+Enabled} ()
+\begin{DoxyCompactList}\small\item\em Is\+Lerp\+Enabled reflects whether the current value is 0 or not. \end{DoxyCompactList}\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a253aa6f84dbfc579ba0e89a97bdfb537}{Tick} (float delta\+Time)
+\begin{DoxyCompactList}\small\item\em Tick needs to be called once per frame. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+float \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a3b40018bedff53d1fcbb9846819546a9}{Linear\+Value}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets Linear\+Value. Returns a raw, linearly interpolated value between 0 and the Math.\+Maximum value. \end{DoxyCompactList}\item 
+float \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a6dcdd78c7c307469b295ae76b5b41eda}{Smooth\+Value}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets Smooth\+Value. Returns the value between 0 and the Math.\+Maximum value, but applies a cosine-\/shaped smoothing function. \end{DoxyCompactList}\item 
+float \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_ab64a8022d62f23eae5f19239dd734b1a}{Enabled}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets Enabled value. \end{DoxyCompactList}\item 
+float \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a5f0d73e5e719721431fe9aa90b863788}{Value}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets The Value. \end{DoxyCompactList}\item 
+float \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_ae01477cadfec29642886ebc8f61c9a1c}{Ease\+In\+Speed}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets Ease in speed. \end{DoxyCompactList}\item 
+float \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a623a5eb25a0d10237079b75be47b394e}{Ease\+Out\+Speed}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets Ease out speed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp}{Timed\+Lerp} -\/ Maintains a time-\/based lerp between 0 and a upper limit between 0 and 1. The lerp speed parameter is in units of inverse time -\/ therefore, a speed of 2.\+0 means that the lerp completes a full transition (0 to 1) in 0.\+5 seconds. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a2fb853bc9258623a8661f0ce980d8482}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}!Timed\+Lerp@{Timed\+Lerp}}
+\index{Timed\+Lerp@{Timed\+Lerp}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}}
+\subsubsection[{Timed\+Lerp}]{\setlength{\rightskip}{0pt plus 5cm}Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timed\+Lerp.\+Timed\+Lerp (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a2fb853bc9258623a8661f0ce980d8482}
+
+
+Initializes a new instance of the \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp}{Timed\+Lerp} class. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_ab8f4dca739b0f1240a1bde6fa949fcdb}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}!Is\+Enabled@{Is\+Enabled}}
+\index{Is\+Enabled@{Is\+Enabled}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}}
+\subsubsection[{Is\+Enabled}]{\setlength{\rightskip}{0pt plus 5cm}bool Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timed\+Lerp.\+Is\+Enabled (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_ab8f4dca739b0f1240a1bde6fa949fcdb}
+
+
+Is\+Enabled reflects whether the target value is 0 or not. 
+
+\begin{DoxyReturn}{Returns}
+Returns true if enabled.
+\end{DoxyReturn}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_afbd26c2a019f4208b1b4fde7c0795a3a}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}!Is\+Lerp\+Enabled@{Is\+Lerp\+Enabled}}
+\index{Is\+Lerp\+Enabled@{Is\+Lerp\+Enabled}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}}
+\subsubsection[{Is\+Lerp\+Enabled}]{\setlength{\rightskip}{0pt plus 5cm}bool Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timed\+Lerp.\+Is\+Lerp\+Enabled (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_afbd26c2a019f4208b1b4fde7c0795a3a}
+
+
+Is\+Lerp\+Enabled reflects whether the current value is 0 or not. 
+
+\begin{DoxyReturn}{Returns}
+Returns true if enabled and value greater than 0, false otherwise.
+\end{DoxyReturn}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a66bc729b694f75f320315d7fe374d4c8}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}!Reset@{Reset}}
+\index{Reset@{Reset}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}}
+\subsubsection[{Reset}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timed\+Lerp.\+Reset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a66bc729b694f75f320315d7fe374d4c8}
+
+
+Re\+Set the Lerp. 
+
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a9528c6e4965ee4613ee2078369cea2e7}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}!Set\+Enabled@{Set\+Enabled}}
+\index{Set\+Enabled@{Set\+Enabled}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}}
+\subsubsection[{Set\+Enabled}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timed\+Lerp.\+Set\+Enabled (
+\begin{DoxyParamCaption}
+\item[{bool}]{is\+Enabled}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a9528c6e4965ee4613ee2078369cea2e7}
+
+
+Set whether the Lerp is enabled. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is\+Enabled} & Enable or Disable Lerp.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a4f6ccd18411293b7713d22fed18c6cef}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}!Set\+Enabled@{Set\+Enabled}}
+\index{Set\+Enabled@{Set\+Enabled}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}}
+\subsubsection[{Set\+Enabled}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timed\+Lerp.\+Set\+Enabled (
+\begin{DoxyParamCaption}
+\item[{float}]{enabled}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a4f6ccd18411293b7713d22fed18c6cef}
+
+
+Set the Lerp enable value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em enabled} & Set enable value.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a7b000562840aed3cb22da5305887c75f}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}!Set\+Speed@{Set\+Speed}}
+\index{Set\+Speed@{Set\+Speed}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}}
+\subsubsection[{Set\+Speed}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timed\+Lerp.\+Set\+Speed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a7b000562840aed3cb22da5305887c75f}
+
+
+Set speeds. 
+
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a8c7da8003befabf88f27664f620edcc1}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}!Set\+Speed@{Set\+Speed}}
+\index{Set\+Speed@{Set\+Speed}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}}
+\subsubsection[{Set\+Speed}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timed\+Lerp.\+Set\+Speed (
+\begin{DoxyParamCaption}
+\item[{float}]{ease\+In\+Speed, }
+\item[{float}]{ease\+Out\+Speed}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a8c7da8003befabf88f27664f620edcc1}
+
+
+Set speeds. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ease\+In\+Speed} & Ease in speed value.\\
+\hline
+{\em ease\+Out\+Speed} & Ease out speed value.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a253aa6f84dbfc579ba0e89a97bdfb537}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}!Tick@{Tick}}
+\index{Tick@{Tick}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}}
+\subsubsection[{Tick}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timed\+Lerp.\+Tick (
+\begin{DoxyParamCaption}
+\item[{float}]{delta\+Time}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a253aa6f84dbfc579ba0e89a97bdfb537}
+
+
+Tick needs to be called once per frame. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em delta\+Time} & The time difference between frames.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Property Documentation}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_ae01477cadfec29642886ebc8f61c9a1c}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}!Ease\+In\+Speed@{Ease\+In\+Speed}}
+\index{Ease\+In\+Speed@{Ease\+In\+Speed}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}}
+\subsubsection[{Ease\+In\+Speed}]{\setlength{\rightskip}{0pt plus 5cm}float Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timed\+Lerp.\+Ease\+In\+Speed\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}, {\ttfamily [protected]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_ae01477cadfec29642886ebc8f61c9a1c}
+
+
+Gets or sets Ease in speed. 
+
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a623a5eb25a0d10237079b75be47b394e}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}!Ease\+Out\+Speed@{Ease\+Out\+Speed}}
+\index{Ease\+Out\+Speed@{Ease\+Out\+Speed}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}}
+\subsubsection[{Ease\+Out\+Speed}]{\setlength{\rightskip}{0pt plus 5cm}float Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timed\+Lerp.\+Ease\+Out\+Speed\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}, {\ttfamily [protected]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a623a5eb25a0d10237079b75be47b394e}
+
+
+Gets or sets Ease out speed. 
+
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_ab64a8022d62f23eae5f19239dd734b1a}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}!Enabled@{Enabled}}
+\index{Enabled@{Enabled}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}}
+\subsubsection[{Enabled}]{\setlength{\rightskip}{0pt plus 5cm}float Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timed\+Lerp.\+Enabled\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}, {\ttfamily [protected]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_ab64a8022d62f23eae5f19239dd734b1a}
+
+
+Gets or sets Enabled value. 
+
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a3b40018bedff53d1fcbb9846819546a9}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}!Linear\+Value@{Linear\+Value}}
+\index{Linear\+Value@{Linear\+Value}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}}
+\subsubsection[{Linear\+Value}]{\setlength{\rightskip}{0pt plus 5cm}float Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timed\+Lerp.\+Linear\+Value\hspace{0.3cm}{\ttfamily [get]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a3b40018bedff53d1fcbb9846819546a9}
+
+
+Gets Linear\+Value. Returns a raw, linearly interpolated value between 0 and the Math.\+Maximum value. 
+
+\begin{DoxyReturn}{Returns}
+Returns a linear Lerped value.
+\end{DoxyReturn}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a6dcdd78c7c307469b295ae76b5b41eda}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}!Smooth\+Value@{Smooth\+Value}}
+\index{Smooth\+Value@{Smooth\+Value}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}}
+\subsubsection[{Smooth\+Value}]{\setlength{\rightskip}{0pt plus 5cm}float Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timed\+Lerp.\+Smooth\+Value\hspace{0.3cm}{\ttfamily [get]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a6dcdd78c7c307469b295ae76b5b41eda}
+
+
+Gets Smooth\+Value. Returns the value between 0 and the Math.\+Maximum value, but applies a cosine-\/shaped smoothing function. 
+
+\begin{DoxyReturn}{Returns}
+Returns a smoothed value.
+\end{DoxyReturn}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a5f0d73e5e719721431fe9aa90b863788}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}!Value@{Value}}
+\index{Value@{Value}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timed\+Lerp}}
+\subsubsection[{Value}]{\setlength{\rightskip}{0pt plus 5cm}float Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timed\+Lerp.\+Value\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}, {\ttfamily [protected]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timed_lerp_a5f0d73e5e719721431fe9aa90b863788}
+
+
+Gets or sets The Value. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Avateering/\+Filters/Timed\+Lerp.\+cs\end{DoxyCompactItemize}

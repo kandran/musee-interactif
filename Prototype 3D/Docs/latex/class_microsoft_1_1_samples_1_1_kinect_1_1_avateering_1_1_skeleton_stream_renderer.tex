@@ -1,0 +1,137 @@
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_skeleton_stream_renderer}{\section{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Skeleton\+Stream\+Renderer Class Reference}
+\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_skeleton_stream_renderer}\index{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Skeleton\+Stream\+Renderer@{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Skeleton\+Stream\+Renderer}}
+}
+
+
+This class is responsible for rendering a skeleton stream.  
+
+
+Inheritance diagram for Microsoft.\+Samples.\+Kinect.\+Avateering.\+Skeleton\+Stream\+Renderer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_skeleton_stream_renderer}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_skeleton_stream_renderer_af0974bf772920b91479aab6a2038ec8c}{Skeleton\+Stream\+Renderer} (Game game, \hyperlink{namespace_microsoft_1_1_samples_1_1_kinect_1_1_avateering_ae8146e6f856d793f4fe4030a7a50a9d1}{Skeleton\+Point\+Map} map)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_skeleton_stream_renderer}{Skeleton\+Stream\+Renderer} class. \end{DoxyCompactList}\item 
+override void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_skeleton_stream_renderer_af47e90f667253a9c1bd3116f607c69fd}{Initialize} ()
+\begin{DoxyCompactList}\small\item\em This method initializes necessary values. \end{DoxyCompactList}\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_skeleton_stream_renderer_a9beca14a74f9e496756a97f828364149}{Update} (Game\+Time game\+Time, Skeleton\mbox{[}$\,$\mbox{]} skeleton\+Frame\+Data)
+\begin{DoxyCompactList}\small\item\em This method retrieves a new skeleton frame if necessary. \end{DoxyCompactList}\item 
+override void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_skeleton_stream_renderer_a3c07b064603a3a47dbcd968b9972e41d}{Draw} (Game\+Time game\+Time)
+\begin{DoxyCompactList}\small\item\em This method draws the skeleton frame data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_skeleton_stream_renderer_abc25b8c3f2cb598c5c4e59b9dbea1785}{Load\+Content} ()
+\begin{DoxyCompactList}\small\item\em This method loads the textures and sets the origin values. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Sprite\+Batch \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_skeleton_stream_renderer_af2e495e28c265c1dfb7797d89e16e06e}{Shared\+Sprite\+Batch}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the Sprite\+Batch from the services. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class is responsible for rendering a skeleton stream. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_skeleton_stream_renderer_af0974bf772920b91479aab6a2038ec8c}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Skeleton\+Stream\+Renderer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Skeleton\+Stream\+Renderer}!Skeleton\+Stream\+Renderer@{Skeleton\+Stream\+Renderer}}
+\index{Skeleton\+Stream\+Renderer@{Skeleton\+Stream\+Renderer}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Skeleton\+Stream\+Renderer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Skeleton\+Stream\+Renderer}}
+\subsubsection[{Skeleton\+Stream\+Renderer}]{\setlength{\rightskip}{0pt plus 5cm}Microsoft.\+Samples.\+Kinect.\+Avateering.\+Skeleton\+Stream\+Renderer.\+Skeleton\+Stream\+Renderer (
+\begin{DoxyParamCaption}
+\item[{Game}]{game, }
+\item[{{\bf Skeleton\+Point\+Map}}]{map}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_skeleton_stream_renderer_af0974bf772920b91479aab6a2038ec8c}
+
+
+Initializes a new instance of the \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_skeleton_stream_renderer}{Skeleton\+Stream\+Renderer} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & The related game object.\\
+\hline
+{\em map} & The method used to map the Skeleton\+Point to the target space.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_skeleton_stream_renderer_a3c07b064603a3a47dbcd968b9972e41d}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Skeleton\+Stream\+Renderer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Skeleton\+Stream\+Renderer}!Draw@{Draw}}
+\index{Draw@{Draw}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Skeleton\+Stream\+Renderer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Skeleton\+Stream\+Renderer}}
+\subsubsection[{Draw}]{\setlength{\rightskip}{0pt plus 5cm}override void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Skeleton\+Stream\+Renderer.\+Draw (
+\begin{DoxyParamCaption}
+\item[{Game\+Time}]{game\+Time}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_skeleton_stream_renderer_a3c07b064603a3a47dbcd968b9972e41d}
+
+
+This method draws the skeleton frame data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Time} & The elapsed game time.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_skeleton_stream_renderer_af47e90f667253a9c1bd3116f607c69fd}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Skeleton\+Stream\+Renderer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Skeleton\+Stream\+Renderer}!Initialize@{Initialize}}
+\index{Initialize@{Initialize}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Skeleton\+Stream\+Renderer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Skeleton\+Stream\+Renderer}}
+\subsubsection[{Initialize}]{\setlength{\rightskip}{0pt plus 5cm}override void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Skeleton\+Stream\+Renderer.\+Initialize (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_skeleton_stream_renderer_af47e90f667253a9c1bd3116f607c69fd}
+
+
+This method initializes necessary values. 
+
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_skeleton_stream_renderer_abc25b8c3f2cb598c5c4e59b9dbea1785}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Skeleton\+Stream\+Renderer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Skeleton\+Stream\+Renderer}!Load\+Content@{Load\+Content}}
+\index{Load\+Content@{Load\+Content}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Skeleton\+Stream\+Renderer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Skeleton\+Stream\+Renderer}}
+\subsubsection[{Load\+Content}]{\setlength{\rightskip}{0pt plus 5cm}override void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Skeleton\+Stream\+Renderer.\+Load\+Content (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_skeleton_stream_renderer_abc25b8c3f2cb598c5c4e59b9dbea1785}
+
+
+This method loads the textures and sets the origin values. 
+
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_skeleton_stream_renderer_a9beca14a74f9e496756a97f828364149}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Skeleton\+Stream\+Renderer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Skeleton\+Stream\+Renderer}!Update@{Update}}
+\index{Update@{Update}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Skeleton\+Stream\+Renderer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Skeleton\+Stream\+Renderer}}
+\subsubsection[{Update}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Skeleton\+Stream\+Renderer.\+Update (
+\begin{DoxyParamCaption}
+\item[{Game\+Time}]{game\+Time, }
+\item[{Skeleton\mbox{[}$\,$\mbox{]}}]{skeleton\+Frame\+Data}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_skeleton_stream_renderer_a9beca14a74f9e496756a97f828364149}
+
+
+This method retrieves a new skeleton frame if necessary. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Time} & The elapsed game time.\\
+\hline
+{\em skeleton\+Frame\+Data} & The skeleton data for the current frame.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Property Documentation}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_skeleton_stream_renderer_af2e495e28c265c1dfb7797d89e16e06e}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Skeleton\+Stream\+Renderer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Skeleton\+Stream\+Renderer}!Shared\+Sprite\+Batch@{Shared\+Sprite\+Batch}}
+\index{Shared\+Sprite\+Batch@{Shared\+Sprite\+Batch}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Skeleton\+Stream\+Renderer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Skeleton\+Stream\+Renderer}}
+\subsubsection[{Shared\+Sprite\+Batch}]{\setlength{\rightskip}{0pt plus 5cm}Sprite\+Batch Microsoft.\+Samples.\+Kinect.\+Avateering.\+Skeleton\+Stream\+Renderer.\+Shared\+Sprite\+Batch\hspace{0.3cm}{\ttfamily [get]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_skeleton_stream_renderer_af2e495e28c265c1dfb7797d89e16e06e}
+
+
+Gets the Sprite\+Batch from the services. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Avateering/Skeleton\+Stream\+Renderer.\+cs\end{DoxyCompactItemize}

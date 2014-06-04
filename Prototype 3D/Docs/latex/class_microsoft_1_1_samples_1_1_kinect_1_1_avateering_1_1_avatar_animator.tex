@@ -1,0 +1,201 @@
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator}{\section{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Avatar\+Animator Class Reference}
+\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator}\index{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Avatar\+Animator@{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Avatar\+Animator}}
+}
+
+
+This class is responsible for animating an avatar using a skeleton stream.  
+
+
+Inheritance diagram for Microsoft.\+Samples.\+Kinect.\+Avateering.\+Avatar\+Animator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_a867e1504135b023647dcfe7ccfa8346b}{Avatar\+Animator} (Game game, \hyperlink{namespace_microsoft_1_1_samples_1_1_kinect_1_1_avateering_a2c91e120476e4f1ece17c53d41ff8327}{Retarget\+Matrix\+Hierarchy\+To\+Avatar\+Mesh} retarget, Vector3 skeleton\+Translation\+Scale\+Factor)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator}{Avatar\+Animator} class. \end{DoxyCompactList}\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_ad1d121e16db910507be5d999cd6b0408}{Reset} ()
+\begin{DoxyCompactList}\small\item\em Reset the tracking filters. \end{DoxyCompactList}\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_adb8495bec1c5f70a396db72d94eee599}{Copy\+Skeleton} (Skeleton source\+Skeleton)
+\begin{DoxyCompactList}\small\item\em This method copies a new skeleton locally so we can modify it. \end{DoxyCompactList}\item 
+override void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_a46df6cf97a78c7ade81427b77cab321e}{Update} (Game\+Time game\+Time)
+\begin{DoxyCompactList}\small\item\em This method retrieves a new skeleton frame if necessary. \end{DoxyCompactList}\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_a310a799c7fe1e687ddc27f3b02f1d354}{Draw} (Game\+Time game\+Time, Matrix world, Matrix view, Matrix projection)
+\begin{DoxyCompactList}\small\item\em This method draws the skeleton frame data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_aac2c33858a422df79802e332db84fcd1}{Skeleton\+Drawn}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets a value indicating whether the model has been drawn -\/ this flag ensures we only request a frame once per update call across the entire application. \end{DoxyCompactList}\item 
+bool \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_a3185fd0fe9fd0db6d0ac75083a490c4c}{Skeleton\+Visible}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets a value indicating whether this model is visible -\/ this flag ensures we only update if there is visible data. \end{DoxyCompactList}\item 
+Skeleton \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_ae4db88033826109723fb2ddf97f1331a}{Raw\+Skeleton}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets a value indicating whether the first tracked skeleton in the frame is used for animation. \end{DoxyCompactList}\item 
+System.\+Tuple$<$ float, float, \\*
+float, float $>$ \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_a3f5a9221dc2119e038dca80bae049d8a}{Floor\+Clip\+Plane}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets a value indicating whether Store the floor plane to compensate the skeletons for any \hyperlink{namespace_microsoft_1_1_samples_1_1_kinect}{Kinect} tilt. \end{DoxyCompactList}\item 
+float \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_a0af976059d0d5692d70c7fa6e35c1bd7}{Avatar\+Hip\+Center\+Height}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets a value indicating whether the height of the avatar Hip Center joint off the floor when standing upright. \end{DoxyCompactList}\item 
+\hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser}{Kinect\+Chooser} \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_a80c63506559b26d0850796c9563fd449}{Chooser}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser}{Kinect\+Chooser} from the services. \end{DoxyCompactList}\item 
+Model \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_a6387822c328c988fe91ce1dacff089b8}{Avatar}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the Avatar 3\+D model to animate. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class is responsible for animating an avatar using a skeleton stream. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_a867e1504135b023647dcfe7ccfa8346b}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator}!Avatar\+Animator@{Avatar\+Animator}}
+\index{Avatar\+Animator@{Avatar\+Animator}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator}}
+\subsubsection[{Avatar\+Animator}]{\setlength{\rightskip}{0pt plus 5cm}Microsoft.\+Samples.\+Kinect.\+Avateering.\+Avatar\+Animator.\+Avatar\+Animator (
+\begin{DoxyParamCaption}
+\item[{Game}]{game, }
+\item[{{\bf Retarget\+Matrix\+Hierarchy\+To\+Avatar\+Mesh}}]{retarget, }
+\item[{Vector3}]{skeleton\+Translation\+Scale\+Factor}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_a867e1504135b023647dcfe7ccfa8346b}
+
+
+Initializes a new instance of the \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator}{Avatar\+Animator} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & The related game object.\\
+\hline
+{\em retarget} & The avatar mesh re-\/targeting method to convert from the \hyperlink{namespace_microsoft_1_1_samples_1_1_kinect}{Kinect} skeleton.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_adb8495bec1c5f70a396db72d94eee599}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator}!Copy\+Skeleton@{Copy\+Skeleton}}
+\index{Copy\+Skeleton@{Copy\+Skeleton}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator}}
+\subsubsection[{Copy\+Skeleton}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Avatar\+Animator.\+Copy\+Skeleton (
+\begin{DoxyParamCaption}
+\item[{Skeleton}]{source\+Skeleton}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_adb8495bec1c5f70a396db72d94eee599}
+
+
+This method copies a new skeleton locally so we can modify it. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em source\+Skeleton} & The skeleton to copy.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_a310a799c7fe1e687ddc27f3b02f1d354}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator}!Draw@{Draw}}
+\index{Draw@{Draw}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator}}
+\subsubsection[{Draw}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Avatar\+Animator.\+Draw (
+\begin{DoxyParamCaption}
+\item[{Game\+Time}]{game\+Time, }
+\item[{Matrix}]{world, }
+\item[{Matrix}]{view, }
+\item[{Matrix}]{projection}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_a310a799c7fe1e687ddc27f3b02f1d354}
+
+
+This method draws the skeleton frame data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Time} & The elapsed game time.\\
+\hline
+{\em world} & The world matrix.\\
+\hline
+{\em view} & The view matrix.\\
+\hline
+{\em projection} & The projection matrix.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_ad1d121e16db910507be5d999cd6b0408}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator}!Reset@{Reset}}
+\index{Reset@{Reset}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator}}
+\subsubsection[{Reset}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Avatar\+Animator.\+Reset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_ad1d121e16db910507be5d999cd6b0408}
+
+
+Reset the tracking filters. 
+
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_a46df6cf97a78c7ade81427b77cab321e}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator}!Update@{Update}}
+\index{Update@{Update}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator}}
+\subsubsection[{Update}]{\setlength{\rightskip}{0pt plus 5cm}override void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Avatar\+Animator.\+Update (
+\begin{DoxyParamCaption}
+\item[{Game\+Time}]{game\+Time}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_a46df6cf97a78c7ade81427b77cab321e}
+
+
+This method retrieves a new skeleton frame if necessary. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Time} & The elapsed game time.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Property Documentation}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_a6387822c328c988fe91ce1dacff089b8}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator}!Avatar@{Avatar}}
+\index{Avatar@{Avatar}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator}}
+\subsubsection[{Avatar}]{\setlength{\rightskip}{0pt plus 5cm}Model Microsoft.\+Samples.\+Kinect.\+Avateering.\+Avatar\+Animator.\+Avatar\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_a6387822c328c988fe91ce1dacff089b8}
+
+
+Gets or sets the Avatar 3\+D model to animate. 
+
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_a0af976059d0d5692d70c7fa6e35c1bd7}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator}!Avatar\+Hip\+Center\+Height@{Avatar\+Hip\+Center\+Height}}
+\index{Avatar\+Hip\+Center\+Height@{Avatar\+Hip\+Center\+Height}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator}}
+\subsubsection[{Avatar\+Hip\+Center\+Height}]{\setlength{\rightskip}{0pt plus 5cm}float Microsoft.\+Samples.\+Kinect.\+Avateering.\+Avatar\+Animator.\+Avatar\+Hip\+Center\+Height\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_a0af976059d0d5692d70c7fa6e35c1bd7}
+
+
+Gets or sets a value indicating whether the height of the avatar Hip Center joint off the floor when standing upright. 
+
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_a80c63506559b26d0850796c9563fd449}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator}!Chooser@{Chooser}}
+\index{Chooser@{Chooser}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator}}
+\subsubsection[{Chooser}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Kinect\+Chooser} Microsoft.\+Samples.\+Kinect.\+Avateering.\+Avatar\+Animator.\+Chooser\hspace{0.3cm}{\ttfamily [get]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_a80c63506559b26d0850796c9563fd449}
+
+
+Gets the \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser}{Kinect\+Chooser} from the services. 
+
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_a3f5a9221dc2119e038dca80bae049d8a}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator}!Floor\+Clip\+Plane@{Floor\+Clip\+Plane}}
+\index{Floor\+Clip\+Plane@{Floor\+Clip\+Plane}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator}}
+\subsubsection[{Floor\+Clip\+Plane}]{\setlength{\rightskip}{0pt plus 5cm}System.\+Tuple$<$float, float, float, float$>$ Microsoft.\+Samples.\+Kinect.\+Avateering.\+Avatar\+Animator.\+Floor\+Clip\+Plane\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_a3f5a9221dc2119e038dca80bae049d8a}
+
+
+Gets or sets a value indicating whether Store the floor plane to compensate the skeletons for any \hyperlink{namespace_microsoft_1_1_samples_1_1_kinect}{Kinect} tilt. 
+
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_ae4db88033826109723fb2ddf97f1331a}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator}!Raw\+Skeleton@{Raw\+Skeleton}}
+\index{Raw\+Skeleton@{Raw\+Skeleton}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator}}
+\subsubsection[{Raw\+Skeleton}]{\setlength{\rightskip}{0pt plus 5cm}Skeleton Microsoft.\+Samples.\+Kinect.\+Avateering.\+Avatar\+Animator.\+Raw\+Skeleton\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_ae4db88033826109723fb2ddf97f1331a}
+
+
+Gets or sets a value indicating whether the first tracked skeleton in the frame is used for animation. 
+
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_aac2c33858a422df79802e332db84fcd1}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator}!Skeleton\+Drawn@{Skeleton\+Drawn}}
+\index{Skeleton\+Drawn@{Skeleton\+Drawn}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator}}
+\subsubsection[{Skeleton\+Drawn}]{\setlength{\rightskip}{0pt plus 5cm}bool Microsoft.\+Samples.\+Kinect.\+Avateering.\+Avatar\+Animator.\+Skeleton\+Drawn\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_aac2c33858a422df79802e332db84fcd1}
+
+
+Gets or sets a value indicating whether the model has been drawn -\/ this flag ensures we only request a frame once per update call across the entire application. 
+
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_a3185fd0fe9fd0db6d0ac75083a490c4c}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator}!Skeleton\+Visible@{Skeleton\+Visible}}
+\index{Skeleton\+Visible@{Skeleton\+Visible}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Avatar\+Animator}}
+\subsubsection[{Skeleton\+Visible}]{\setlength{\rightskip}{0pt plus 5cm}bool Microsoft.\+Samples.\+Kinect.\+Avateering.\+Avatar\+Animator.\+Skeleton\+Visible\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_avatar_animator_a3185fd0fe9fd0db6d0ac75083a490c4c}
+
+
+Gets or sets a value indicating whether this model is visible -\/ this flag ensures we only update if there is visible data. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Avateering/Avatar\+Animator.\+cs\end{DoxyCompactItemize}

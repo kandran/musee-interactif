@@ -1,0 +1,118 @@
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_skinned_model_pipeline_1_1_skinned_model_processor}{\section{Microsoft.\+Samples.\+Kinect.\+Skinned\+Model\+Pipeline.\+Skinned\+Model\+Processor Class Reference}
+\label{class_microsoft_1_1_samples_1_1_kinect_1_1_skinned_model_pipeline_1_1_skinned_model_processor}\index{Microsoft.\+Samples.\+Kinect.\+Skinned\+Model\+Pipeline.\+Skinned\+Model\+Processor@{Microsoft.\+Samples.\+Kinect.\+Skinned\+Model\+Pipeline.\+Skinned\+Model\+Processor}}
+}
+
+
+Custom processor extends the built in framework Model\+Processor class, adding animation support.  
+
+
+Inheritance diagram for Microsoft.\+Samples.\+Kinect.\+Skinned\+Model\+Pipeline.\+Skinned\+Model\+Processor\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_microsoft_1_1_samples_1_1_kinect_1_1_skinned_model_pipeline_1_1_skinned_model_processor}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override Model\+Content \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_skinned_model_pipeline_1_1_skinned_model_processor_aeb3f8db38e99e916f3cf052e1e588757}{Process} (Node\+Content input, Content\+Processor\+Context context)
+\begin{DoxyCompactList}\small\item\em The main Process method converts an intermediate format content pipeline Node\+Content tree to a Model\+Content object with embedded animation data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_skinned_model_pipeline_1_1_skinned_model_processor_a15a7a2a1007a8f815f46cd260558b004}{Validate\+Mesh} (Node\+Content node, Content\+Processor\+Context context, string parent\+Bone\+Name)
+\begin{DoxyCompactList}\small\item\em Makes sure this mesh contains the kind of data we know how to animate. \end{DoxyCompactList}\item 
+static bool \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_skinned_model_pipeline_1_1_skinned_model_processor_a1d13d928dfa3c2ed9a5c9eaa115a0b18}{Mesh\+Has\+Skinning} (Mesh\+Content mesh)
+\begin{DoxyCompactList}\small\item\em Checks whether a mesh contains skinning information. \end{DoxyCompactList}\item 
+static void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_skinned_model_pipeline_1_1_skinned_model_processor_a788feaa714f2e3afceb45de2e265b4f5}{Flatten\+Transforms} (Node\+Content node, Bone\+Content skeleton)
+\begin{DoxyCompactList}\small\item\em Bakes unwanted transforms into the model geometry, so everything ends up in the same coordinate system. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+override \\*
+Material\+Processor\+Default\+Effect \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_skinned_model_pipeline_1_1_skinned_model_processor_a15f28361f1525eae7c96ddb05a290a2d}{Default\+Effect}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Force all the materials to use our skinned model effect. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Custom processor extends the built in framework Model\+Processor class, adding animation support. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_skinned_model_pipeline_1_1_skinned_model_processor_a788feaa714f2e3afceb45de2e265b4f5}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Skinned\+Model\+Pipeline\+::\+Skinned\+Model\+Processor@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Skinned\+Model\+Pipeline\+::\+Skinned\+Model\+Processor}!Flatten\+Transforms@{Flatten\+Transforms}}
+\index{Flatten\+Transforms@{Flatten\+Transforms}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Skinned\+Model\+Pipeline\+::\+Skinned\+Model\+Processor@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Skinned\+Model\+Pipeline\+::\+Skinned\+Model\+Processor}}
+\subsubsection[{Flatten\+Transforms}]{\setlength{\rightskip}{0pt plus 5cm}static void Microsoft.\+Samples.\+Kinect.\+Skinned\+Model\+Pipeline.\+Skinned\+Model\+Processor.\+Flatten\+Transforms (
+\begin{DoxyParamCaption}
+\item[{Node\+Content}]{node, }
+\item[{Bone\+Content}]{skeleton}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_skinned_model_pipeline_1_1_skinned_model_processor_a788feaa714f2e3afceb45de2e265b4f5}
+
+
+Bakes unwanted transforms into the model geometry, so everything ends up in the same coordinate system. 
+
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_skinned_model_pipeline_1_1_skinned_model_processor_a1d13d928dfa3c2ed9a5c9eaa115a0b18}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Skinned\+Model\+Pipeline\+::\+Skinned\+Model\+Processor@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Skinned\+Model\+Pipeline\+::\+Skinned\+Model\+Processor}!Mesh\+Has\+Skinning@{Mesh\+Has\+Skinning}}
+\index{Mesh\+Has\+Skinning@{Mesh\+Has\+Skinning}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Skinned\+Model\+Pipeline\+::\+Skinned\+Model\+Processor@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Skinned\+Model\+Pipeline\+::\+Skinned\+Model\+Processor}}
+\subsubsection[{Mesh\+Has\+Skinning}]{\setlength{\rightskip}{0pt plus 5cm}static bool Microsoft.\+Samples.\+Kinect.\+Skinned\+Model\+Pipeline.\+Skinned\+Model\+Processor.\+Mesh\+Has\+Skinning (
+\begin{DoxyParamCaption}
+\item[{Mesh\+Content}]{mesh}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_skinned_model_pipeline_1_1_skinned_model_processor_a1d13d928dfa3c2ed9a5c9eaa115a0b18}
+
+
+Checks whether a mesh contains skinning information. 
+
+\begin{DoxyReturn}{Returns}
+Returns true if mesh has skin
+\end{DoxyReturn}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_skinned_model_pipeline_1_1_skinned_model_processor_aeb3f8db38e99e916f3cf052e1e588757}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Skinned\+Model\+Pipeline\+::\+Skinned\+Model\+Processor@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Skinned\+Model\+Pipeline\+::\+Skinned\+Model\+Processor}!Process@{Process}}
+\index{Process@{Process}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Skinned\+Model\+Pipeline\+::\+Skinned\+Model\+Processor@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Skinned\+Model\+Pipeline\+::\+Skinned\+Model\+Processor}}
+\subsubsection[{Process}]{\setlength{\rightskip}{0pt plus 5cm}override Model\+Content Microsoft.\+Samples.\+Kinect.\+Skinned\+Model\+Pipeline.\+Skinned\+Model\+Processor.\+Process (
+\begin{DoxyParamCaption}
+\item[{Node\+Content}]{input, }
+\item[{Content\+Processor\+Context}]{context}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_skinned_model_pipeline_1_1_skinned_model_processor_aeb3f8db38e99e916f3cf052e1e588757}
+
+
+The main Process method converts an intermediate format content pipeline Node\+Content tree to a Model\+Content object with embedded animation data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & Node\+Content input\\
+\hline
+{\em context} & Content\+Processor\+Context input\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Model Content
+\end{DoxyReturn}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_skinned_model_pipeline_1_1_skinned_model_processor_a15a7a2a1007a8f815f46cd260558b004}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Skinned\+Model\+Pipeline\+::\+Skinned\+Model\+Processor@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Skinned\+Model\+Pipeline\+::\+Skinned\+Model\+Processor}!Validate\+Mesh@{Validate\+Mesh}}
+\index{Validate\+Mesh@{Validate\+Mesh}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Skinned\+Model\+Pipeline\+::\+Skinned\+Model\+Processor@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Skinned\+Model\+Pipeline\+::\+Skinned\+Model\+Processor}}
+\subsubsection[{Validate\+Mesh}]{\setlength{\rightskip}{0pt plus 5cm}static void Microsoft.\+Samples.\+Kinect.\+Skinned\+Model\+Pipeline.\+Skinned\+Model\+Processor.\+Validate\+Mesh (
+\begin{DoxyParamCaption}
+\item[{Node\+Content}]{node, }
+\item[{Content\+Processor\+Context}]{context, }
+\item[{string}]{parent\+Bone\+Name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_skinned_model_pipeline_1_1_skinned_model_processor_a15a7a2a1007a8f815f46cd260558b004}
+
+
+Makes sure this mesh contains the kind of data we know how to animate. 
+
+
+
+\subsection{Property Documentation}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_skinned_model_pipeline_1_1_skinned_model_processor_a15f28361f1525eae7c96ddb05a290a2d}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Skinned\+Model\+Pipeline\+::\+Skinned\+Model\+Processor@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Skinned\+Model\+Pipeline\+::\+Skinned\+Model\+Processor}!Default\+Effect@{Default\+Effect}}
+\index{Default\+Effect@{Default\+Effect}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Skinned\+Model\+Pipeline\+::\+Skinned\+Model\+Processor@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Skinned\+Model\+Pipeline\+::\+Skinned\+Model\+Processor}}
+\subsubsection[{Default\+Effect}]{\setlength{\rightskip}{0pt plus 5cm}override Material\+Processor\+Default\+Effect Microsoft.\+Samples.\+Kinect.\+Skinned\+Model\+Pipeline.\+Skinned\+Model\+Processor.\+Default\+Effect\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_skinned_model_pipeline_1_1_skinned_model_processor_a15f28361f1525eae7c96ddb05a290a2d}
+
+
+Force all the materials to use our skinned model effect. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Skinned\+Model\+Pipeline/Skinned\+Model\+Processor.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,155 @@
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser}{\section{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Kinect\+Chooser Class Reference}
+\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser}\index{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Kinect\+Chooser@{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Kinect\+Chooser}}
+}
+
+
+This class will pick a \hyperlink{namespace_microsoft_1_1_samples_1_1_kinect}{Kinect} sensor, if available.  
+
+
+Inheritance diagram for Microsoft.\+Samples.\+Kinect.\+Avateering.\+Kinect\+Chooser\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_a29881c15d2fce5627afaf44aedebb167}{Kinect\+Chooser} (Game game, Color\+Image\+Format color\+Format, Depth\+Image\+Format depth\+Format)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser}{Kinect\+Chooser} class. \end{DoxyCompactList}\item 
+override void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_a2a64601325b25988ed098dffbe304b85}{Draw} (Game\+Time game\+Time)
+\begin{DoxyCompactList}\small\item\em This method renders the current state of the \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser}{Kinect\+Chooser}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_a4522920e8cdfb10fef30d242fcb92523}{Load\+Content} ()
+\begin{DoxyCompactList}\small\item\em This method loads the textures and fonts. \end{DoxyCompactList}\item 
+override void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_a7ef341c7a8390e715f93c2a73ecb1e86}{Unload\+Content} ()
+\begin{DoxyCompactList}\small\item\em This method ensures that the Kinect\+Sensor is stopped before exiting. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Sprite\+Batch \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_a0a11686b3a34bd60af0322f281743c49}{Shared\+Sprite\+Batch}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the Sprite\+Batch from the services. \end{DoxyCompactList}\item 
+Kinect\+Sensor \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_a6b75400ac959ae1dca6df7361c9d70c7}{Sensor}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the selected Kinect\+Sensor. \end{DoxyCompactList}\item 
+Kinect\+Status \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_aca4cdae78c86075fc6231d089874eb19}{Last\+Status}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the last known status of the Kinect\+Sensor. \end{DoxyCompactList}\item 
+bool \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_a18582629cc383f05b349184f3445e46c}{Near\+Mode}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets a value indicating whether near mode is enabled. Near mode enables depth between 0.\+4 to 3m, default is between 0.\+8 to 4m. \end{DoxyCompactList}\item 
+bool \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_abcf49a8b0d0d77bfed8bcc4ff32c9cb5}{Seated\+Mode}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets a value indicating whether seated mode is enabled for skeletal tracking. Seated mode tracks only the upper body skeleton, returning the 10 joints of the arms, shoulders and head. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class will pick a \hyperlink{namespace_microsoft_1_1_samples_1_1_kinect}{Kinect} sensor, if available. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_a29881c15d2fce5627afaf44aedebb167}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser}!Kinect\+Chooser@{Kinect\+Chooser}}
+\index{Kinect\+Chooser@{Kinect\+Chooser}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser}}
+\subsubsection[{Kinect\+Chooser}]{\setlength{\rightskip}{0pt plus 5cm}Microsoft.\+Samples.\+Kinect.\+Avateering.\+Kinect\+Chooser.\+Kinect\+Chooser (
+\begin{DoxyParamCaption}
+\item[{Game}]{game, }
+\item[{Color\+Image\+Format}]{color\+Format, }
+\item[{Depth\+Image\+Format}]{depth\+Format}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_a29881c15d2fce5627afaf44aedebb167}
+
+
+Initializes a new instance of the \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser}{Kinect\+Chooser} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & The related game object.\\
+\hline
+{\em color\+Format} & The desired color image format.\\
+\hline
+{\em depth\+Format} & The desired depth image format.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_a2a64601325b25988ed098dffbe304b85}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser}!Draw@{Draw}}
+\index{Draw@{Draw}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser}}
+\subsubsection[{Draw}]{\setlength{\rightskip}{0pt plus 5cm}override void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Kinect\+Chooser.\+Draw (
+\begin{DoxyParamCaption}
+\item[{Game\+Time}]{game\+Time}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_a2a64601325b25988ed098dffbe304b85}
+
+
+This method renders the current state of the \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser}{Kinect\+Chooser}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Time} & The elapsed game time.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_a4522920e8cdfb10fef30d242fcb92523}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser}!Load\+Content@{Load\+Content}}
+\index{Load\+Content@{Load\+Content}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser}}
+\subsubsection[{Load\+Content}]{\setlength{\rightskip}{0pt plus 5cm}override void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Kinect\+Chooser.\+Load\+Content (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_a4522920e8cdfb10fef30d242fcb92523}
+
+
+This method loads the textures and fonts. 
+
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_a7ef341c7a8390e715f93c2a73ecb1e86}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser}!Unload\+Content@{Unload\+Content}}
+\index{Unload\+Content@{Unload\+Content}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser}}
+\subsubsection[{Unload\+Content}]{\setlength{\rightskip}{0pt plus 5cm}override void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Kinect\+Chooser.\+Unload\+Content (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_a7ef341c7a8390e715f93c2a73ecb1e86}
+
+
+This method ensures that the Kinect\+Sensor is stopped before exiting. 
+
+
+
+\subsection{Property Documentation}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_aca4cdae78c86075fc6231d089874eb19}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser}!Last\+Status@{Last\+Status}}
+\index{Last\+Status@{Last\+Status}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser}}
+\subsubsection[{Last\+Status}]{\setlength{\rightskip}{0pt plus 5cm}Kinect\+Status Microsoft.\+Samples.\+Kinect.\+Avateering.\+Kinect\+Chooser.\+Last\+Status\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_aca4cdae78c86075fc6231d089874eb19}
+
+
+Gets the last known status of the Kinect\+Sensor. 
+
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_a18582629cc383f05b349184f3445e46c}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser}!Near\+Mode@{Near\+Mode}}
+\index{Near\+Mode@{Near\+Mode}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser}}
+\subsubsection[{Near\+Mode}]{\setlength{\rightskip}{0pt plus 5cm}bool Microsoft.\+Samples.\+Kinect.\+Avateering.\+Kinect\+Chooser.\+Near\+Mode\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_a18582629cc383f05b349184f3445e46c}
+
+
+Gets or sets a value indicating whether near mode is enabled. Near mode enables depth between 0.\+4 to 3m, default is between 0.\+8 to 4m. 
+
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_abcf49a8b0d0d77bfed8bcc4ff32c9cb5}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser}!Seated\+Mode@{Seated\+Mode}}
+\index{Seated\+Mode@{Seated\+Mode}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser}}
+\subsubsection[{Seated\+Mode}]{\setlength{\rightskip}{0pt plus 5cm}bool Microsoft.\+Samples.\+Kinect.\+Avateering.\+Kinect\+Chooser.\+Seated\+Mode\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_abcf49a8b0d0d77bfed8bcc4ff32c9cb5}
+
+
+Gets or sets a value indicating whether seated mode is enabled for skeletal tracking. Seated mode tracks only the upper body skeleton, returning the 10 joints of the arms, shoulders and head. 
+
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_a6b75400ac959ae1dca6df7361c9d70c7}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser}!Sensor@{Sensor}}
+\index{Sensor@{Sensor}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser}}
+\subsubsection[{Sensor}]{\setlength{\rightskip}{0pt plus 5cm}Kinect\+Sensor Microsoft.\+Samples.\+Kinect.\+Avateering.\+Kinect\+Chooser.\+Sensor\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_a6b75400ac959ae1dca6df7361c9d70c7}
+
+
+Gets the selected Kinect\+Sensor. 
+
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_a0a11686b3a34bd60af0322f281743c49}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser}!Shared\+Sprite\+Batch@{Shared\+Sprite\+Batch}}
+\index{Shared\+Sprite\+Batch@{Shared\+Sprite\+Batch}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Kinect\+Chooser}}
+\subsubsection[{Shared\+Sprite\+Batch}]{\setlength{\rightskip}{0pt plus 5cm}Sprite\+Batch Microsoft.\+Samples.\+Kinect.\+Avateering.\+Kinect\+Chooser.\+Shared\+Sprite\+Batch\hspace{0.3cm}{\ttfamily [get]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_kinect_chooser_a0a11686b3a34bd60af0322f281743c49}
+
+
+Gets the Sprite\+Batch from the services. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Avateering/Kinect\+Chooser.\+cs\end{DoxyCompactItemize}

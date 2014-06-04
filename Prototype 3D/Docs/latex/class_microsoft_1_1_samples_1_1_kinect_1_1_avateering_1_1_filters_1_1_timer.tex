@@ -1,0 +1,154 @@
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer}{\section{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timer Class Reference}
+\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer}\index{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timer@{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timer}}
+}
+
+
+Class \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer}{Timer} is a helper class to perform timer operations For stop-\/watch timer functionality, use\+: \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a463741040cda49273475a5722322b73d}{Start()} -\/ To start the timer \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a018da7ed7832a2257569dd87e68e6137}{Stop()} -\/ To stop (or pause) the timer \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a938e1304e5e4aaa916a5ef010ff8fc28}{Reset()} -\/ To reset the timer Time -\/ Returns current time or last stopped time For app-\/timing and per-\/frame updates, use\+: Absolute\+Time -\/ To get the absolute system time Get\+App\+Time() -\/ To get the running time since construction (which is usually the start of the app) Get\+Elapsed\+Time() -\/ To get the time that elapsed since the previous call Get\+Elapsed\+Time() call \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a02e586f1d448e09be37c47a28791d0fc}{Single\+Step()} -\/ To advance the timer by a time delta  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a49aa7ad43a8e706a066e0024f661ee44}{Timer} ()
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer}{Timer} class. \end{DoxyCompactList}\item 
+double \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a938e1304e5e4aaa916a5ef010ff8fc28}{Reset} ()
+\begin{DoxyCompactList}\small\item\em Reset the timer. \end{DoxyCompactList}\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a463741040cda49273475a5722322b73d}{Start} ()
+\begin{DoxyCompactList}\small\item\em Start the timer. \end{DoxyCompactList}\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a018da7ed7832a2257569dd87e68e6137}{Stop} ()
+\begin{DoxyCompactList}\small\item\em Stop the timer. \end{DoxyCompactList}\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a02e586f1d448e09be37c47a28791d0fc}{Single\+Step} (double time\+Advance)
+\begin{DoxyCompactList}\small\item\em Advance the timer by a specified amount (e.\+g. 1/10th second) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a9b9f45503cee32ccde7f8e6c9266775f}{Time}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the stop time if timer stopped, otherwise the absolute time. \end{DoxyCompactList}\item 
+double \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_adec0c50e5672b30b1ff76376e8afd3c8}{Absolute\+Time}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the absolute time. \end{DoxyCompactList}\item 
+double \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a00024192f2aa0880fbd93bd2340d4c31}{Elapsed\+Time}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the elapsed time since the last call. \end{DoxyCompactList}\item 
+double \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a91863829bd1c44609689762d27fef591}{App\+Time}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the current time since the computer clock started. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer}{Timer} is a helper class to perform timer operations For stop-\/watch timer functionality, use\+: \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a463741040cda49273475a5722322b73d}{Start()} -\/ To start the timer \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a018da7ed7832a2257569dd87e68e6137}{Stop()} -\/ To stop (or pause) the timer \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a938e1304e5e4aaa916a5ef010ff8fc28}{Reset()} -\/ To reset the timer Time -\/ Returns current time or last stopped time For app-\/timing and per-\/frame updates, use\+: Absolute\+Time -\/ To get the absolute system time Get\+App\+Time() -\/ To get the running time since construction (which is usually the start of the app) Get\+Elapsed\+Time() -\/ To get the time that elapsed since the previous call Get\+Elapsed\+Time() call \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a02e586f1d448e09be37c47a28791d0fc}{Single\+Step()} -\/ To advance the timer by a time delta 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a49aa7ad43a8e706a066e0024f661ee44}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer}!Timer@{Timer}}
+\index{Timer@{Timer}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer}}
+\subsubsection[{Timer}]{\setlength{\rightskip}{0pt plus 5cm}Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timer.\+Timer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a49aa7ad43a8e706a066e0024f661ee44}
+
+
+Initializes a new instance of the \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer}{Timer} class. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a938e1304e5e4aaa916a5ef010ff8fc28}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer}!Reset@{Reset}}
+\index{Reset@{Reset}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer}}
+\subsubsection[{Reset}]{\setlength{\rightskip}{0pt plus 5cm}double Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timer.\+Reset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a938e1304e5e4aaa916a5ef010ff8fc28}
+
+
+Reset the timer. 
+
+\begin{DoxyReturn}{Returns}
+Returns the absolute stopped time (0) in s.
+\end{DoxyReturn}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a02e586f1d448e09be37c47a28791d0fc}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer}!Single\+Step@{Single\+Step}}
+\index{Single\+Step@{Single\+Step}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer}}
+\subsubsection[{Single\+Step}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timer.\+Single\+Step (
+\begin{DoxyParamCaption}
+\item[{double}]{time\+Advance}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a02e586f1d448e09be37c47a28791d0fc}
+
+
+Advance the timer by a specified amount (e.\+g. 1/10th second) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em time\+Advance} & Time to advance by.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a463741040cda49273475a5722322b73d}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer}!Start@{Start}}
+\index{Start@{Start}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer}}
+\subsubsection[{Start}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timer.\+Start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a463741040cda49273475a5722322b73d}
+
+
+Start the timer. 
+
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a018da7ed7832a2257569dd87e68e6137}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer}!Stop@{Stop}}
+\index{Stop@{Stop}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer}}
+\subsubsection[{Stop}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timer.\+Stop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a018da7ed7832a2257569dd87e68e6137}
+
+
+Stop the timer. 
+
+
+
+\subsection{Property Documentation}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_adec0c50e5672b30b1ff76376e8afd3c8}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer}!Absolute\+Time@{Absolute\+Time}}
+\index{Absolute\+Time@{Absolute\+Time}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer}}
+\subsubsection[{Absolute\+Time}]{\setlength{\rightskip}{0pt plus 5cm}double Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timer.\+Absolute\+Time\hspace{0.3cm}{\ttfamily [get]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_adec0c50e5672b30b1ff76376e8afd3c8}
+
+
+Gets the absolute time. 
+
+\begin{DoxyReturn}{Returns}
+Returns the absolute time in s.
+\end{DoxyReturn}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a91863829bd1c44609689762d27fef591}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer}!App\+Time@{App\+Time}}
+\index{App\+Time@{App\+Time}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer}}
+\subsubsection[{App\+Time}]{\setlength{\rightskip}{0pt plus 5cm}double Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timer.\+App\+Time\hspace{0.3cm}{\ttfamily [get]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a91863829bd1c44609689762d27fef591}
+
+
+Gets the current time since the computer clock started. 
+
+\begin{DoxyReturn}{Returns}
+Returns the absolute time in s.
+\end{DoxyReturn}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a00024192f2aa0880fbd93bd2340d4c31}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer}!Elapsed\+Time@{Elapsed\+Time}}
+\index{Elapsed\+Time@{Elapsed\+Time}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer}}
+\subsubsection[{Elapsed\+Time}]{\setlength{\rightskip}{0pt plus 5cm}double Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timer.\+Elapsed\+Time\hspace{0.3cm}{\ttfamily [get]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a00024192f2aa0880fbd93bd2340d4c31}
+
+
+Gets the elapsed time since the last call. 
+
+\begin{DoxyReturn}{Returns}
+Returns the absolute time in s.
+\end{DoxyReturn}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a9b9f45503cee32ccde7f8e6c9266775f}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer}!Time@{Time}}
+\index{Time@{Time}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Timer}}
+\subsubsection[{Time}]{\setlength{\rightskip}{0pt plus 5cm}double Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Timer.\+Time\hspace{0.3cm}{\ttfamily [get]}}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_timer_a9b9f45503cee32ccde7f8e6c9266775f}
+
+
+Gets the stop time if timer stopped, otherwise the absolute time. 
+
+\begin{DoxyReturn}{Returns}
+Returns the absolute time in s.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Avateering/\+Filters/Timer.\+cs\end{DoxyCompactItemize}

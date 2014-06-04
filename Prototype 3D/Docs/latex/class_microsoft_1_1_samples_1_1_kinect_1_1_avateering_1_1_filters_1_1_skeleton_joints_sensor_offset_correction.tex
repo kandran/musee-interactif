@@ -1,0 +1,77 @@
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_sensor_offset_correction}{\section{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Skeleton\+Joints\+Sensor\+Offset\+Correction Class Reference}
+\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_sensor_offset_correction}\index{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Skeleton\+Joints\+Sensor\+Offset\+Correction@{Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Skeleton\+Joints\+Sensor\+Offset\+Correction}}
+}
+
+
+Filter to correct the skeleton position for the sensor height above the floor, to enable an avatar to be placed with feet on the ground plane.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_sensor_offset_correction_a0a219f1b8a9f7702a7965c64dfd84a6b}{Skeleton\+Joints\+Sensor\+Offset\+Correction} ()
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_sensor_offset_correction}{Skeleton\+Joints\+Sensor\+Offset\+Correction} class. \end{DoxyCompactList}\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_sensor_offset_correction_a58aa2a575cf71b7b51ebdc8a6c156175}{Reset} ()
+\begin{DoxyCompactList}\small\item\em Resets the average floor offset. \end{DoxyCompactList}\item 
+void \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_sensor_offset_correction_a878127fb5ec53cefbfd76e9afef34952}{Correct\+Skeleton\+Offset\+From\+Floor} (Skeleton skeleton, Tuple$<$ float, float, float, float $>$ floor\+Plane, float avatar\+Hip\+Center\+Height)
+\begin{DoxyCompactList}\small\item\em Correct\+Skeleton\+Offset\+From\+Floor moves the skeleton to the floor. If no floor found in Skeletal Tracking, we can try and use the foot position but this can be very noisy, which causes the skeleton to bounce up and down. Note\+: Using the foot positions will reduce the visual effect of jumping when an avateer jumps, as we perform a running average. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Filter to correct the skeleton position for the sensor height above the floor, to enable an avatar to be placed with feet on the ground plane. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_sensor_offset_correction_a0a219f1b8a9f7702a7965c64dfd84a6b}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Sensor\+Offset\+Correction@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Sensor\+Offset\+Correction}!Skeleton\+Joints\+Sensor\+Offset\+Correction@{Skeleton\+Joints\+Sensor\+Offset\+Correction}}
+\index{Skeleton\+Joints\+Sensor\+Offset\+Correction@{Skeleton\+Joints\+Sensor\+Offset\+Correction}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Sensor\+Offset\+Correction@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Sensor\+Offset\+Correction}}
+\subsubsection[{Skeleton\+Joints\+Sensor\+Offset\+Correction}]{\setlength{\rightskip}{0pt plus 5cm}Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Skeleton\+Joints\+Sensor\+Offset\+Correction.\+Skeleton\+Joints\+Sensor\+Offset\+Correction (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_sensor_offset_correction_a0a219f1b8a9f7702a7965c64dfd84a6b}
+
+
+Initializes a new instance of the \hyperlink{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_sensor_offset_correction}{Skeleton\+Joints\+Sensor\+Offset\+Correction} class. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_sensor_offset_correction_a878127fb5ec53cefbfd76e9afef34952}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Sensor\+Offset\+Correction@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Sensor\+Offset\+Correction}!Correct\+Skeleton\+Offset\+From\+Floor@{Correct\+Skeleton\+Offset\+From\+Floor}}
+\index{Correct\+Skeleton\+Offset\+From\+Floor@{Correct\+Skeleton\+Offset\+From\+Floor}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Sensor\+Offset\+Correction@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Sensor\+Offset\+Correction}}
+\subsubsection[{Correct\+Skeleton\+Offset\+From\+Floor}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Skeleton\+Joints\+Sensor\+Offset\+Correction.\+Correct\+Skeleton\+Offset\+From\+Floor (
+\begin{DoxyParamCaption}
+\item[{Skeleton}]{skeleton, }
+\item[{Tuple$<$ float, float, float, float $>$}]{floor\+Plane, }
+\item[{float}]{avatar\+Hip\+Center\+Height}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_sensor_offset_correction_a878127fb5ec53cefbfd76e9afef34952}
+
+
+Correct\+Skeleton\+Offset\+From\+Floor moves the skeleton to the floor. If no floor found in Skeletal Tracking, we can try and use the foot position but this can be very noisy, which causes the skeleton to bounce up and down. Note\+: Using the foot positions will reduce the visual effect of jumping when an avateer jumps, as we perform a running average. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em skeleton} & The skeleton to correct.\\
+\hline
+{\em floor\+Plane} & The floor plane (consisting of up normal and sensor height) detected by skeleton tracking (if any).\\
+\hline
+{\em avatar\+Hip\+Center\+Height} & The height of the avatar Hip Center joint.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_sensor_offset_correction_a58aa2a575cf71b7b51ebdc8a6c156175}{\index{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Sensor\+Offset\+Correction@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Sensor\+Offset\+Correction}!Reset@{Reset}}
+\index{Reset@{Reset}!Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Sensor\+Offset\+Correction@{Microsoft\+::\+Samples\+::\+Kinect\+::\+Avateering\+::\+Filters\+::\+Skeleton\+Joints\+Sensor\+Offset\+Correction}}
+\subsubsection[{Reset}]{\setlength{\rightskip}{0pt plus 5cm}void Microsoft.\+Samples.\+Kinect.\+Avateering.\+Filters.\+Skeleton\+Joints\+Sensor\+Offset\+Correction.\+Reset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_microsoft_1_1_samples_1_1_kinect_1_1_avateering_1_1_filters_1_1_skeleton_joints_sensor_offset_correction_a58aa2a575cf71b7b51ebdc8a6c156175}
+
+
+Resets the average floor offset. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Avateering/\+Filters/Skeleton\+Joints\+Sensor\+Offset\+Correction.\+cs\end{DoxyCompactItemize}
